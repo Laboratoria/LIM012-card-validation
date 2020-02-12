@@ -6,8 +6,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header> hola </header>
-    <main></main>
+    <header> 
+      <h1 class="title" id="cuenta">CREA TU CUENTA</h1>
+    </header>
+    <main>
+      <div  id= "pag1" class="login">
+        <input type="text" placeholder=" Ingresa Nombre Completo" id="nombreCompleto" class="inpText" > 
+        <input type="text" placeholder=" Ingresa Correo Electrónico" id="correoElectrónico" class="inpText">
+        <input type="text" placeholder=" Ingresa Número de Teléfono" id="númeroTeléfono" class="inpText">
+        <input type="text" placeholder=" Ingresa Número de DNI" id="dni" class="inpText">
+        <button id="myBtn" class="btn">SIGUIENTE</button>
+       </div>
+
+      <div id= "pag2">
+        <input type="text" placeholder=" Ingresa Número de la Tarjeta" id="numCard" class="Card">
+        <button id="myBtn1" class="btn1">VALIDAR</button>
+      </div>
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>

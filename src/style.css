@@ -1,0 +1,32 @@
+.title {
+    background: rgb(166, 236, 236);
+    font-size: small;
+    font-style: italic;
+    width: 150px;
+    display: block;
+    position: relative;
+    left: 72.5%;
+    bottom: -120px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login {
+    border: 1px solid rgb(56, 118, 211);
+    border-radius: 5px;
+    position: fixed;
+    display: block;
+    left: 65%;
+    width: 300px;
+    margin: 9em 4em 3em 2em;
+}
+
+.inpText {
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+    padding-top: 10px; 
+    margin: 20px ;
+    border: 1px solid rgb(181, 187, 196);
+}
