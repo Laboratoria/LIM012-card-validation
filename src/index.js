@@ -2,9 +2,8 @@ import validator from './validator.js';
 
 document.getElementById("pag2").style.display="none";
 let boton= document.getElementById("myBtn");
-boton.addEventListener("click", nextClick);
 
-function nextClick () {
+boton.addEventListener("click", ()=> {
 
 let nombreCompleto = document.getElementById("nombreCompleto").value;
 let correoElectrónico = document.getElementById("correoElectrónico").value;
@@ -19,25 +18,24 @@ let dni  = document.getElementById("dni").value;
             document.getElementById("pag2").style.display="";
             document.getElementById("cuenta").style.display="none";
        }
-}
+});
+
 
 let boton1= document.getElementById("myBtn1");
-boton1.addEventListener("click", nextClick1);
-
-function nextClick1 () {
- 
-let numCard = document.getElementById("numCard").value;
-let array = Array.from(numCard);
-let arrayNew = [];
-      if(numCard == false){
-            alert("Campo obligatorio");
-      } else {
-            for ( let i= array.length -1 ; i>=0 ; i-- ){
-                  arrayNew = arrayNew + array[i];
-            }
-      } 
-      document.write(arrayNew); 
+let valid = ()=> {
+  let numIngresado = document.getElementById("numCard").value;
+  let cardNum = validator.isValid(numIngresado);
+  
 }
+boton1.addEventListener("click", valid);
+
+let boton2= document.getElementById("myBtn2");
+
+let maskid = ()=>{
+  let numIngresado = document.getElementById("numCard").value;
+  let cardNum = validator.maskify(numIngresado);
+}
+boton2.addEventListener("click",maskid);
 
 
 
@@ -47,6 +45,5 @@ let arrayNew = [];
 
 
 
-
-
+//  4551708243730135
 console.log(validator);
