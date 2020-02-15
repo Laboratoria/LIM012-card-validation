@@ -2,61 +2,49 @@ const validator = {
   
     isValid(cardNum){
       
-      let arrayIngresado = Array.from(cardNum);
-            let arrayNew = [];
+      if(cardNum !== "" && cardNum.length==16){
+        let array= Array.from(cardNum);
+        let arrayNew=[];
+        let sumTotal=0;
+        let sum=0;
+
+          for(let i=array.length-1; i>=0 ;i--){
+            arrayNew.push(array[i]);
+          }
+
+          for(let j=0; j<=arrayNew.length-1; j++){
+
+            if(j%2==0){
+              sumTotal+= parseInt(arrayNew[j]);
+                
+            }else if(parseInt(arrayNew[j])*2<10){
+              sumTotal+= parseInt(arrayNew[j])*2;
+             
+            }else {
+               let mixer= parseInt(arrayNew[j])*2;
+               let inText= mixer.toString();
+               for(let k=0; k<inText.length; k++){
+                 sum+=parseInt(inText[k]);
+               }
+            } 
+          }
+        sumTotal+=sum;
+
+        if(sumTotal%10==0){
+          alert("tarjeta valida")
+        } else{
+          alert("tarjeta invalida")
+        }
+    
+      }else{
+        alert("Campo obligatorio, Ingrese 16 dígitos")
+      }
+      
+      
             
-                 if(cardNum == false){
-                       alert("Campo obligatorio");
-                 } else {
-                       for ( let i= arrayIngresado.length -1 ; i>=0 ; i-- ){
-                             arrayNew = arrayNew + arrayIngresado[i];
-                       }
-                     
-                     console.log(arrayNew)
-           }
-           
-            let arrayNew1 = Array.from(arrayNew);
-            let sum=0;
-            let arrayPar=[];
-            let sumLong=0;
-           
-           
-            for(let i=0; i<=arrayNew1.length-1; i++)
-            {
-              
-                 if ( i%2 !== 0){
-                   arrayPar.push(arrayNew1[i])
-                      
-                 } else {
-                   sum= sum + parseInt(arrayNew1[i])
-                   console.log(sum)   
-                 }
-               
-            }
-           
-               for ( let j=0; j<arrayPar.length; j++){
-           
-                 if(parseInt(arrayPar[j])*2<10){
-                 sum+=parseInt(arrayPar[j])*2
-               }
-               else if(parseInt(arrayPar[j])*2>=10){
-                 var valor=parseInt(arrayPar[j])*2
-                 var valortext=valor.toString()
-                 for(var k=0;k<valortext.length;k++){
-                   sumLong +=parseInt(valortext[k]);
-                 }
-               }
-           
-               }
-           sum+=sumLong
-             if(sum %10==0){
-              alert("tarjeta valida");
-             }
-             else{
-               alert("esa tarjeta es invalida")
-             }
     }
     ,
+    
     maskify(cardNum){
 
       let output = '';
