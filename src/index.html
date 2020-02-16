@@ -3,33 +3,61 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link href="https//fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    
   </head>
   <body>
-    <header> 
-      <h1 class="title" id="cuenta">CREA TU CUENTA</h1>
-    </header>
-    <main>
+    <header class="public" id="public"> 
+      <div class="banner" id="banner">
+        <img class="anuncio active" src="imagenes/ad1.png" alt="">
+        <img class="anuncio" src="imagenes/ad2.png" alt="">
+        <img class="anuncio" src="imagenes/ad3.png" alt="">
+        <img class="anuncio" src="imagenes/ad4.png" alt="">
+      </div> 
+      <a href="#" id="preview" class="flecha left"><i class="fas fa-angle-left"></i></a>
+      <a href="#" id="next" class="flecha rigth"><i class="fas fa-angle-right"></i></a>
+    </header> 
+
+    <main class="menu">
       <div  id= "pag1" class="login">
+        <h1 class="title" id="cuenta">CREA TU CUENTA</h1>
+        <form action="" class="formulario">
         <input type="text" placeholder=" Ingresa Nombre Completo" id="nombreCompleto" class="inpText" > 
         <input type="text" placeholder=" Ingresa Correo Electrónico" id="correoElectrónico" class="inpText">
         <input type="text" placeholder=" Ingresa Número de Teléfono" id="númeroTeléfono" class="inpText">
         <input type="text" placeholder=" Ingresa Número de DNI" id="dni" class="inpText">
+        </form>
         <button id="myBtn" class="btn">SIGUIENTE</button>
+        
        </div>
 
-      <div id= "pag2">
+      <div id= "pag2" class="pag2">
+        
+        <div class="columna2">
         <input type="number" autocomplete= "off" placeholder=" Ingresa Número de la Tarjeta" id="numCard" class="Card">
         <button id="myBtn1" class="btn1">VALIDAR</button>
+        </div>
+        <div class="columna1"><img  src="imagenes/ad6.png" alt=""></div>  
       </div>
       
       <div id="pag3">
+        
+        <div class="fila1"><img  src="imagenes/ad7.png" alt=""></div> 
         <button id="myBtn2" class="btn2">PROTEGE TU TARJETA</button>
+        <div class="fila2">
+          <img class="demo1" src="imagenes/ad9.png" alt="">
+          <div id="demo2" class="demo"></div>
+        </div>  
+        
       </div>
 
     </main>
     <footer></footer>
+    <script src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
     <script src="index.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/7e57db430e.js" crossorigin="anonymous"></script>
   </body>
 </html>
 

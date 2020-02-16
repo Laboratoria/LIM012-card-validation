@@ -34,10 +34,12 @@ const validator = {
           alert("tarjeta valida")
         } else{
           alert("tarjeta invalida")
+          return isValid();
         }
     
       }else{
         alert("Campo obligatorio, Ingrese 16 dígitos")
+        return isValid();
       }
       
       
@@ -59,7 +61,7 @@ const validator = {
             }
       
       let hola = output + lastFour;
-      alert(hola);
+      return hola;
             
     }
 }

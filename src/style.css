@@ -1,32 +1,191 @@
-.title {
-    background: rgb(166, 236, 236);
-    font-size: small;
-    font-style: italic;
-    width: 150px;
-    display: block;
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("imagenes/bla1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: "none";
+}
+
+.public {
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.public {
+    overflow: hidden;
+    z-index: 1000;
     position: relative;
-    left: 72.5%;
-    bottom: -120px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
+    /* height: 300px;  */
+}
+
+.public .banner {
+    position: relative;
+    width: 100%;
+}
+
+.public .banner img{
+    vertical-align: top;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:100%;
+
+}
+.public .flecha{
+    font-size: 50px;
+    line-height: 50px;
+    color: rgba(255, 255, 255,0.5);
+    position: absolute;
+    top: 50%;
+    z-index: 1100;
+}
+
+.public .flecha:hover{
+    color:rgba(73, 61, 61, 0.3)
+}
+
+.public .left {
+    left:20px;
+}
+.public .rigth {
+    right:20px;
 }
 
 .login {
-    border: 1px solid rgb(56, 118, 211);
-    border-radius: 5px;
-    position: fixed;
-    display: block;
-    left: 65%;
-    width: 300px;
-    margin: 9em 4em 3em 2em;
+   
+    background: white;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 0 0 20px 20px;
+     
 }
 
-.inpText {
+
+.title{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: Calibri;
+}
+
+
+.formulario input{
+    border: 1px solid rgb(182, 180, 181);
+    font-size: 14px;
+    height: 30px;
+    width: 60%;
     border-radius: 5px;
-    width: 250px;
-    height: 20px;
-    padding-top: 10px; 
-    margin: 20px ;
-    border: 1px solid rgb(181, 187, 196);
+    display: flex;
+    margin: 20px;
+    margin-left: 20%;
+}
+
+.btn{
+    background: rgb(114, 135, 233);
+    text-align: center;
+    padding: 10px;
+    border: 5px black;
+    border-radius: 5px;
+    margin-left: 42%;
+   
+}
+.btn:hover {
+    background: rgba(114, 135, 233,0.5);
+    }
+
+.columna2, .pag3{
+    
+    position: absolute;
+    top:80px  ;
+    left:880px;
+    width: 400px;
+    height: 500px;
+    background: black;
+    border-radius: 20px;
+    padding-top: 120px;
+}
+
+.Card{
+    border: 1px solid rgb(182, 180, 181);
+    font-size: 14px;
+    height: 30px;
+    width: 60%;
+    border-radius: 5px;
+    display: flex;
+    margin:50px;
+    margin-left: 20%;
+}
+
+.btn1{
+    background: rgb(114, 135, 233);
+    text-align: center;
+    padding: 10px;
+    border: 5px rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 42%;
+}
+.btn1:hover {
+    background: rgba(114, 135, 233,0.5);
+    }
+
+.btn2{
+    background: rgb(219, 241, 14);
+    text-align: center;
+    padding: 10px;
+    border: 5px black;
+    border-radius: 5px;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+.btn2:hover {
+    background: rgba(112, 102, 10, 0.5);
+    }
+
+.fila1{
+    margin-left: 25px;
+}
+
+/* .demo{
+    width: 400px;
+    height: 200px;
+    margin-left: 37%;
+    margin-top: 2% ;
+    border: 2x solid black;
+} */
+
+
+.demo1{
+    
+    width: 300px;
+    height: 180px;
+    margin-left: 37%;
+    margin-top: 2% ;
+    /* position: fixed; */
+   
+}
+
+.demo{
+    position: relative;
+    left: 43%;
+    top:-10px;
+
 }
