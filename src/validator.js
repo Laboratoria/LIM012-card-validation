@@ -1,53 +1,44 @@
 const validator = {
   // ...
-  arrcardnumbers:[],
-
-  isValid: function(creditCardNumber){
-    // invierto el arreglo en arrcardnumbers ya seran numeros
-    let old=15;
+    isValid: function(creditCardNumber){
+    // invierto el arreglo en arrinvertido ya seran numeros
+    let arrinvertido=[];
+    let idxreverse=15;
     let producto=0;
     let caracter;
     let suma=0;
+    let respuesta=false;
     for (let i = 0; i <= 15; i = i + 1) {
-      arrcardnumbers[i]= creditCardNumber[old]*1;
-      old=old-1;
-     } 
-    //multiplico x 2 las ubicaciones pares
+      arrinvertido[i]= creditCardNumber[idxreverse]*1;
+      idxreverse=idxreverse-1;
+     }
+  //   console.log(arrinvertido);
+  //multiplico x 2 las ubicaciones pares
     for (let j = 1; j <= 15; j = j + 2) {
-      producto=arrcardnumbers[i]*2;
+    producto=arrinvertido[j]*2;
       if (producto>9){
         caracter=producto-10;
-        arrcardnumbers[i]=(caracter*1)+1;
+        console.log(caracter);
+        arrinvertido[j]=(caracter*1)+1;
+      } else {
+        arrinvertido[j]=producto;
       }
     }
-    // sumo a todos
+  //  console.log(arrinvertido);
+  // sumo a todos
     for (let i = 0; i <= 15; i = i + 1) {
-      suma = suma+arrcardnumbers[i];
-    }  
-    if (suma%10){
-      return true;
-    else 
-      return false;
+      suma = suma+arrinvertido[i];
     }
-  }
-};
-
-
-
-
-const F1Race = {
-  drivers: [
-    'Alonso',
-    'Vettel',
-    'Button',
-    'Massa'
-  ],
-  init: function () {
-    console.log('Los siguientes pilotos van a comenzar la carrera:', this.drivers);
-    setTimeout((function () {
-      console.log('El ganador es', randomWinner(this.drivers));
-    }), 1000);
-  }
-};
+    //console.log(suma);
+  // envio la respuesta
+    //console.log (!suma%10);
+    if ((suma%10)===0){
+       respuesta=true;
+    }else {
+       respuesta=false;
+    }
+    return respuesta;
+  } // fin de metodo isvalid
+}; // fin de objeto validator
 
 export default validator;
