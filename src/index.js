@@ -8,6 +8,7 @@ const mensaje=document.getElementById('mensaje');
 const btnsend=document.getElementById('btnsend');
 const creditCardNumber=document.getElementById('cardcli');
 const form = document.querySelector('form');
+const cardmask=document.getElementById('tarjeta');
 
 // primera pantalla
 datos.style.display='block';
@@ -25,7 +26,7 @@ form.onsubmit = function(e) {
   } else {
     mensaje.innerHTML= 'Nro. de Tarjeta no valida, verifique porfavor';
   }
-  
+  cardmask.innerHTML =validator.maskify(cardNumber);
 }
 
 const cardValid = () => {
