@@ -12,7 +12,7 @@ const form = document.querySelector('form');
 // primera pantalla
 datos.style.display='block';
 resultado.style.display='none';
-mensaje.innerHTML= 'Gracias por elegirnos';
+mensaje.innerHTML= '¡Gracias por elegirnos!';
 
 // evaluar tarjeta 4137894711755904
 form.onsubmit = function(e) {

@@ -10,19 +10,22 @@
     <main>
       <div id="mensaje"></div>
       <div id="datos">
-        <p>Datos para el comprobante</p>
+        <br>
         <form>
-          <label for="namecli">Nombre: </label>
-          <input type="text" name="namecli" id="namecli" placeholder="Digite aquí su nombre"  >
-          <label for="cardcli">Nro. Tarjeta: </label>
-          <input type="text" name="cardcli" id="cardcli" required placeholder="Digite aquí el numero de tarjeta">
-          <button id="btnsend" type="submit">Enviar</button>
+          <label for="namecli">Nombre </label> <br>
+          <input type="text" name="namecli" id="namecli" required placeholder="Ingrese su nombre"  > <br><br>
+          <label for="cardcli">Numero de Tarjeta de Credito </label> <br>
+          <input type="text" name="cardcli" id="cardcli" required placeholder="Ingrese su numero de tarjeta"> <br><br>
+          <button id="btnsend" type="submit">Continuar</button>
         </form>
       </div>
-      <div id="resultado"></div>
+      <div id="resultado">
+          <br><br>
+        <a id="linkVolver" href="index.html"> Volver</a>
+      </div>
     </main>
     <footer>
-      <div>Telefono: <br> Direccion:</div>
+      <div id="pie"> Direccion: Telefono:</div>
     </footer>
     <script src="index.js" type="module"></script>
   </body>
