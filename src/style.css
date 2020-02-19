@@ -26,45 +26,45 @@ a{
     align-items: center;
 }
 
-.public {
+/* .public {
     overflow: hidden;
     z-index: 1000;
     position: relative;
-    /* height: 300px;  */
-}
+    
+} */
 
-.public .banner {
+/* .public .banner {
     position: relative;
     width: 100%;
-}
+} */
 
-.public .banner img{
+/* .public .banner img{
     vertical-align: top;
     width: 100%;
     position: absolute;
     top:0;
     left:100%;
 
-}
-.public .flecha{
+} */
+/* .public .flecha{
     font-size: 50px;
     line-height: 50px;
     color: rgba(255, 255, 255,0.5);
     position: absolute;
     top: 50%;
     z-index: 1100;
-}
+} */
 
-.public .flecha:hover{
+/* .public .flecha:hover{
     color:rgba(73, 61, 61, 0.3)
-}
+} */
 
-.public .left {
+/* .public .left {
     left:20px;
 }
 .public .rigth {
     right:20px;
-}
+} */
 
 .login {
    
@@ -74,6 +74,7 @@ a{
     margin: auto;
     padding-bottom: 20px;
     border-radius: 0 0 20px 20px;
+    border: black 1px;
      
 }
 
@@ -172,6 +173,9 @@ a{
     border: 2x solid black;
 } */
 
+.fila2{
+    position: float;
+}
 
 .demo1{
     
@@ -180,12 +184,14 @@ a{
     margin-left: 37%;
     margin-top: 2% ;
     /* position: fixed; */
+    float: inline-end;
    
 }
 
 .demo{
     position: relative;
     left: 43%;
-    top:-10px;
+    
+    
 
 }

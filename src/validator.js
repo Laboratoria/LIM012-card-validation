@@ -1,12 +1,15 @@
+
 const validator = {
-  
-    isValid(cardNum){
+
+    isValid : (cardNum) =>{
       
-      if(cardNum !== "" && cardNum.length==16){
+      // if(cardNum !== "" && cardNum.length<=16){
+       
         let array= Array.from(cardNum);
         let arrayNew=[];
         let sumTotal=0;
         let sum=0;
+        
 
           for(let i=array.length-1; i>=0 ;i--){
             arrayNew.push(array[i]);
@@ -30,24 +33,28 @@ const validator = {
           }
         sumTotal+=sum;
 
-        if(sumTotal%10==0){
-          alert("tarjeta valida")
+        // if(sumTotal%10==0 && sumTotal!==0){
+          if(sumTotal%10==0){
+                return true;
+          // alert("tarjeta valida")
         } else{
-          alert("tarjeta invalida")
-          return isValid();
+          // alert("tarjeta invalida")
+          // return isValid();
+          return false;
         }
     
-      }else{
-        alert("Campo obligatorio, Ingrese 16 dígitos")
-        return isValid();
-      }
+      //  }else{
+      //    alert("Campo obligatorio, Ingrese 16 dígitos")
+      //    return isValid();
+      //    return false;
+      //  }
       
       
             
     }
     ,
     
-    maskify(cardNum){
+    maskify: (cardNum) =>{
 
       let output = '';
       let lastFour = cardNum.slice(-4, cardNum.length);
@@ -59,9 +66,9 @@ const validator = {
               output += '#';
             }
             }
-      
-      let hola = output + lastFour;
-      return hola;
+      return output + lastFour;
+      // let hola = output + lastFour;
+      // return hola;
             
     }
 }
