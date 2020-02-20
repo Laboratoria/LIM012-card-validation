@@ -12,7 +12,9 @@ header{
 main{
     height: 400px;
 }
-
+.hide{
+    display: none;
+}
 .mensaje{
     color: red;
     font-size: 3em;

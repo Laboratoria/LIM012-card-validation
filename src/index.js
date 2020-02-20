@@ -1,53 +1,40 @@
 import validator from './validator.js';
-console.log(validator);
 
 // declaracion
 const datos=document.getElementById('datos');
 const resultado=document.getElementById('resultado');
 const mensaje=document.getElementById('mensaje');
-const btnsend=document.getElementById('btnsend');
 const creditCardNumber=document.getElementById('cardcli');
+const namecli=document.getElementById('namecli');
 const form = document.querySelector('form');
-const cardmask=document.getElementById('tarjeta');
+const showcli=document.getElementById('showcli');
+const showcard=document.getElementById('showcard');
+const btnback=document.getElementById('btnback');
 
-// primera pantalla
-datos.style.display='block';
-resultado.style.display='none';
-mensaje.innerHTML= '¡Gracias por elegirnos!';
+mensaje.innerHTML= '¡Bienvenido!';
 
-// evaluar tarjeta 4137894711755904
-form.onsubmit = function(e) {
-  e.preventDefault();
-  let cardNumber=creditCardNumber.value;
-  datos.style.display='none';
-  resultado.style.display='block';
-  if (validator.isValid(cardNumber)) {
-    mensaje.innerHTML= 'Nro. de Tarjeta valida';
-  } else {
-    mensaje.innerHTML= 'Nro. de Tarjeta no valida, verifique porfavor';
-  }
-  cardmask.innerHTML =validator.maskify(cardNumber);
-}
+// volver para intentar nuevamente
+btnback.addEventListener('click',()=>{
+  resultado.classList.add("hide");
+  datos.classList.remove("hide");
+  mensaje.innerHTML= '¡Bienvenido!';
+})
 
-const cardValid = () => {
+//  datos del formulario
+form.addEventListener('submit',(event)=> {
+    event.preventDefault();
     let cardNumber=creditCardNumber.value;
-    datos.style.display='none';
-    resultado.style.display='block';
-//    mensaje.innerHTML=validator.isValid(cardNumber));
+
+    datos.classList.add("hide");   
+    resultado.classList.remove("hide");
+
     if (validator.isValid(cardNumber)) {
-      mensaje.innerHTML= 'Comprobante y muestra tarjeta XXXXXX9999';
+      mensaje.innerHTML= 'Nro. de Tarjeta valida';
     } else {
-      mensaje.innerHTML= 'tarjeta no valida';
+      mensaje.innerHTML= 'Nro. de Tarjeta no valida, verifique porfavor';
     }
-};
-//onclick
-
-//btnsend.addEventListener('onclick', cardValid);
-
-//document.getElementById('btnsend').addEventListener('click',validar);
-
- //btnsend.onclick = function(){
-//    datos.style.display='none';
-//    resultado.style.display='block';
-//    mensaje.innerHTML= 'Comprobante y muestra tarjeta XXXXXX9999';
-//  };
+    showcli.innerHTML=namecli.value;  
+    showcard.innerHTML=validator.maskify(cardNumber);
+  
+  }
+);

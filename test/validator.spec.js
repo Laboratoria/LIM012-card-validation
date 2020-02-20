@@ -11,12 +11,12 @@ describe('validator', () => {
       expect(typeof validator.isValid).toBe('function');
     });
 
-    it.skip('debería retornar true para "4083952015263"', () => {
-      // escribe aquí tu test
+    it('debería retornar true para "4083952015263"', () => {
+      expect(validator.isValid("4083952015263")).toBe(true);
     });
 
-    it.skip('debería retornar true para "79927398713"', () => {
-      // escribe aquí tu test
+    it('debería retornar true para "79927398713"', () => {
+      expect(validator.isValid("79927398713")).toBe(true);
     });
 
     it.skip('debería retornar false para "1234567890"', () => {
