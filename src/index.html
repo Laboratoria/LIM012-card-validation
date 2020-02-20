@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome.css">
-    <link href="https//fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" >
+    
     
   </head>
   <body>
@@ -36,25 +37,41 @@
       <div id= "pag2" class="pag2">
         
         <div class="columna2">
+        <p id="introduccion" class="introduccion">Para continuar con el formulario, es necesario ingresar un método de pago.
+          Al obtener la membresía obtendrás un beneficio del 20% en el pago por los tres primeros meses, accederás a toda la información 
+          en música: descargas, envivo, compra de tickets para próximos eventos, noticias.
+        </p>
         <input type="text" autocomplete= "off" placeholder=" Ingresa Número de la Tarjeta" id="numCard" class="Card">
         <button id="myBtn1" class="btn1">VALIDAR</button>
         </div>
-        <div class="columna1"><img  src="imagenes/ad6.png" alt=""></div>  
+        <div class="columna1"><img  src="imagenes/ad6.png" alt=""></div> 
+
       </div>
       
       <div id="pag3">
         
-        <div class="fila1"><img  src="imagenes/ad7.png" alt=""></div> 
+      <div class="fila1">
+        <div class="proteger">
         <button id="myBtn2" class="btn2">PROTEGE TU TARJETA</button>
-        <div class="fila2">
-          <img class="demo1" src="imagenes/ad9.png" alt="">
-          <div id="demo2" class="demo"></div>5
-        </div>  
-        
+        <a href="#" id="preview" class="preview"><i class="fas fa-angle-left"></i></a>
+        <a href="https://www.apple.com/apple-music/" id="next" class="next"><i class="fas fa-angle-right"></i></a>
+        </div>
+        <div id="demo" class="demo"></div>
+        <div class="redes">
+        <div class="redesSociales">
+          <a href="https://www.google.com/" class="google" ><i class="fab fa-google"></i></a>
+          <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/login?lang=es" class="twitter"><i class="fab fa-twitter"></i></a>
+        </div>
       </div>
-
+        <div class="fila2">
+          <img class="anuncio" src="imagenes/ad1.png" alt="">
+          <img class="anuncio" src="imagenes/ad3.png" alt="">
+          </div>
+         </div>
+        </div>
     </main>
-    <footer></footer>
+  
     <!-- <script src="http://code.jquery.com/jquery-3.0.0.min.js"></script> -->
     <script src="index.js" type="module"></script>
     <script src="https://kit.fontawesome.com/7e57db430e.js" crossorigin="anonymous"></script>

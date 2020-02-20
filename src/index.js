@@ -2,6 +2,9 @@ import validator from './validator.js';
 
 document.getElementById("pag2").style.display="none";
 document.getElementById("pag3").style.display="none";
+
+
+
 let boton= document.getElementById("myBtn");
 
 boton.addEventListener("click", ()=> {
@@ -16,7 +19,6 @@ let dni  = document.getElementById("dni").value;
              alert("Todos los campos son obligatorios");
        } else {
             document.getElementById("pag1").style.display="none";
-            document.getElementById("pag3").style.display="none";
             document.getElementById("pag2").style.display="";
             document.getElementById("public").style.display="none";
        }
@@ -27,12 +29,21 @@ let boton1= document.getElementById("myBtn1");
 let valid = ()=> {
 let numIngresado = document.getElementById("numCard").value;
   
-  if (numIngresado==""){
-    alert("Campo Obligatorio")
+  if (numIngresado !==""){
+    
+    if(validator.isValid(numIngresado) == true){
+      
+      document.getElementById("pag2").style.display="none";
+      document.getElementById("pag3").style.display="";
+      document.getElementById("redesSociales").style.display="";
+      
+    } else{
+      alert("tarjeta inválida")
+    }
+
+
   } else{
-    validator.isValid(numIngresado);
-    document.getElementById("pag2").style.display="none";
-    document.getElementById("pag3").style.display="";
+        alert("Campo Obligatorio")
   }
 
 }
@@ -42,12 +53,17 @@ let boton2= document.getElementById("myBtn2");
 
 let maskid = ()=>{
   let numIngresado = document.getElementById("numCard").value;
-  document.getElementById("demo2").innerHTML = validator.maskify(numIngresado);
- 
+  document.getElementById("demo").innerHTML = validator.maskify(numIngresado);
+  
 }
 boton2.addEventListener("click",maskid);
 
-
+let back= document.getElementById("preview");
+back.addEventListener("click", ()=>{
+  document.getElementById("pag2").style.display="";
+  document.getElementById("pag3").style.display="none";
+  
+})
 
 
 
