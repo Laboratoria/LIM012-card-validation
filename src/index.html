@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Four Seansons</title>
+    
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <div id="bienvenida1">
+      <h1> <span>F</span>OUR SEASON<span>S</span> </h1>
+      <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+      <h2>HOTEL & SUITES</h2>
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+
+      <br>
+      <div class="contornoBotones">
+        <button class="botonMenu" id="nosotros"> NOSOTROS </button>
+        <button class="botonMenu" id="servicios"> SERVICIOS </button>
+        <button class="botonMenu" id="reservaciones"> RESERVACIONES </button> 
+        <br><br>
+        <img id="imagenMenuInicio" src="images/entrada.png">
+      </div>
+
+    </div>
+
+    <!--Primera Pantalla-->
+    <div id="bienvenida">
+      <h1> <span>F</span>OUR SEASON<span>S</span> </h1>
+      <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+      <h2>HOTEL & SUITES</h2>
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+      
+      
+      <div class="contornoBotones" id="botonesInicio"> 
+        <button class="boton" id="btnMenorDeEdad"> PAGO EN EFECTIVO </button>
+        <button class="boton" id="btnMayorDeEdad"> PAGO CON TARJETA </button>
+        
+      </div>
+
+    </div>
+     <!--Mensaje a menores de edad-->
+    <div class="contornoBotones" id="msj1">
+      <p id="msjMenorDeEdad"></p>
+    </div>
+        <!--Segunda Pantalla-->
+        
+    <div id="ingresoTarjeta">
+        <h3> <span>F</span>OUR SEASON<span>S</span> </h3>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+        <h4>HOTEL & SUITES</h4>
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+      
+      <p> Necesitamos validar tu número de tarjeta para que comiences a hacer reservaciones </p>
+      <p> INGRESE LOS NÚMEROS DE LA TARJETA A CONSULTAR </p>
+      <input id="ingresoCardNumber" type="text" required >
+      <button id="btnValidar" > V A L I D A R </button>
+
+    </div>
+    <div id="validacionTarjeta">
+        <h5> <span>F</span>OUR SEASON<span>S</span> </h5>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+        <h6>HOTEL & SUITES</h6>
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+      <p> EL NUMERO DE TARJETA INGRESADO ES : </p>
+      <p id="cardNumberAsterisco"></p>
+      <p id="numeroAsterisco"></p>
+
+    </div>
+    <script type="module"  src="index.js"></script>
   </body>
 </html>
