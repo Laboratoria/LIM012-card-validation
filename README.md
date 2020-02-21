@@ -146,12 +146,12 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 
-## FULL MUSIC
+## :musical_score: FULL MUSIC - CARD VALIDATION
 
 FULL MUSIC, la página que te permitirá acceder a una plataforma con contenido musical de 
 todos los géneros depués de validar tu tarjeta de crédito.
 
-### PANTALLAS DEL PROYECTO
+### PROYECTO FINAL
 
 #### :one: VISTA PRIMERA PANTALLA
 
@@ -166,6 +166,21 @@ todos los géneros depués de validar tu tarjeta de crédito.
 ### :three: VISTA TERCERA PANTALLA
 
 ![](PAG3.PNG)
+
+
+## :mag: INVESTIGACIÓN UX:
+
+Página dirigida a usuarios en general que necesiten un espacio de entretenimiento en el mundo musical,
+que puedan acceder a una plataforma con distintas variedades en música. 
+Para acceder a éste contenido será necesario que el usuario cree una cuenta, posteriormente ingresar un método de pago, la cual será validada y finalmente será protegida.
+El usuario podrá interactuar de manera dinámica con cada funcionalidad de la página.
+
+
+
+
+
+
+
 
 * Un título con el nombre de tu proyecto.
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
