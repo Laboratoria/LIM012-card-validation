@@ -155,7 +155,7 @@ todos los géneros depués de validar tu tarjeta de crédito.
 
 #### VISTA PRIMERA PANTALLA
 
-!(imagenes/PAG1.png)
+!(src/imagenes/PAG1.png)
 
 
 * Un título con el nombre de tu proyecto.
