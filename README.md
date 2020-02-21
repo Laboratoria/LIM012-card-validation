@@ -155,7 +155,7 @@ todos los géneros depués de validar tu tarjeta de crédito.
 
 #### VISTA PRIMERA PANTALLA
 
-![as](PAG1.PNG)
+![as](https://raw.githubusercontent.com/parzibyte/WaterPy/master/PAG1.png)
 
 
 * Un título con el nombre de tu proyecto.
