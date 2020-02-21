@@ -25,7 +25,7 @@ const validator = {
       }
     }
     // sumo a todos
-    for (let i = 0; i <= 15; i = i + 1) {
+    for (let i = 0; i <= largo; i = i + 1) {
       suma = suma+arrinvertido[i];
     }
     console.log(suma);
