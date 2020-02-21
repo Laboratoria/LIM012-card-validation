@@ -1,80 +1,157 @@
 html{
-    background-image: url('images/fondo2.png');
-    background-repeat: no-repeat;
-    background-position: center 0px;
-  }
-  
-  h1, h3, h5 {
-    Font-Family: 'Cinzel', Cursive;
-    Font-Size: 45px;
-    color: #333333;
-    padding: 1px;
-    text-align: center;
-    margin: 20px;
-    margin-bottom: 0;
-  
-  }
-  span {
-    Font-Size: 65px;
-  
-  }
-  h2, h4, h6 {
-    Font-Family: 'Rufina', Serif;
-    color: #202020;
-    Font-Size: 25px;
-    text-align: center;
-    margin: 10px;
-    margin-bottom: 0;
-    
-    
-  }
-  body{
-  
+  background-image: url('images/fondo2.png');
+  background-repeat: no-repeat;
+  background-position: center 0px;
+}
+
+h1, h3, h5 {
+  Font-Family: 'Cinzel', Cursive;
+  Font-Size: 50px;
+  color: #333333;
+  padding: 1px;
   text-align: center;
+  margin: 20px;
+  margin-bottom: 0;
+
+}
+span {
+  Font-Size: 65px;
+
+}
+h2, h4, h6 {
+  Font-Family: 'Rufina', Serif;
+  color: #202020;
+  Font-Size: 25px;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 0;
   
   
+}
+body{
+
+text-align: center;
+
+
+
+}
+.boton{
+  text-decoration: none;
+  margin: 40px auto;
+  padding: 10px;
+  width: 300px;
+  font-weight: 450;
+  font-size: px;
+  color: #ffffff;
+  background-color: #5F9DD3;
+  border-radius: 6px;
+  border: 2px solid #5F9DD3;
   
-  }
-  .boton{
-    text-decoration: none;
-    margin: 40px auto;
-    padding: 10px;
-    width: 300px;
-    font-weight: 450;
-    font-size: px;
-    color: #ffffff;
-    background-color: #327499;
-    border-radius: 6px;
-    border: 2px solid #327499;
+}
+.contornoBotones{
+    width: 1100px;
+    height: 500px;
+    background-color: rgba(190,212,228, 0.692);;
+    margin: 10px ;
+    margin-left:auto ;
+    margin-right:auto ;
+    border-radius: 15px;
     
-  }
-  .contornoBotones{
-      width: 1100px;
-      height: 500px;
-      background-color: rgba(190,212,228, 0.692);;
-      margin: 10px ;
-      margin-left:auto ;
-      margin-right:auto ;
-      border-radius: 15px;
-      
 
-  }
-  .botonMenu{
-    text-decoration: none;
-    margin: 40px auto;
-    padding: 10px;
-    width: 300px;
-    font-weight: 450;
-    font-size: px;
-    color: #ffffff;
-    background-color: #5F9DD3;
-    border-radius: 6px;
-    border: 2px solid #5F9DD3;
+}
+.botonMenu{
+  text-decoration: none;
+  margin: 40px auto;
+  padding: 10px;
+  width: 300px;
+  font-weight: 450;
+  font-size: px;
+  color: #ffffff;
+  background-color: #5F9DD3;
+  border-radius: 6px;
+  border: 2px solid #5F9DD3;
 
-  }
-  #imagenMenuInicio {
+}
+#imagenMenuInicio {
 
-    border-radius: 40px;
-    opacity: 0.8;
+  border-radius: 40px;
+  opacity: 0.8;
+  
 
-  }
+}
+.pagCons {
+
+  border-radius: 40px;
+  opacity: 0.8;
+
+}
+#msjMenorDeEdad{
+  Font-Family: 'Muli', Sans-Serif;
+  Font-Size: 18px;
+  color: #2e2b2b;
+}
+#ingresoTarjeta{
+  Font-Family: 'Muli', Sans-Serif;
+  Font-Size: 18px;
+  color: #2e2b2b;
+}
+#ingresoTarjeta1{
+  Font-Family: 'Muli', Sans-Serif;
+  Font-Size: 18px;
+  color: #2e2b2b;
+}
+#pNosotros {
+  Font-Family: 'Muli', Sans-Serif;
+  Font-Size: 19px;
+  color: #2e2b2b;
+  position: left,center,right,justify;
+  margin: 50px;
+}
+.contornoExtra{
+    width: 600px;
+    height: 350px;
+    background-color: rgba(236, 180, 59, 0.849);;
+    margin: 10px ;
+    margin-left:auto ;
+    margin-right:auto ;
+    border-radius: 15px;
+
+}
+
+#pagTar{
+  border-radius: 40px;
+  opacity: 0.8;
+
+}
+.visaM{
+  float: left;
+  margin: 10px ;
+  margin-left: 250px;
+}
+.botonV{
+  text-decoration: none;
+  margin: 40px auto;
+  padding: 10px;
+  width: 300px;
+  font-weight: 450;
+  font-size: px;
+  color: #ffffff;
+  background-color: rgba(235, 135, 42, 0.863);
+  border-radius: 6px;
+  border: 2px solid rgba(235, 135, 42, 0.863);
+
+}
+#formulario {
+
+  border-radius: 40px;
+  opacity: 0.99;
+  margin: 10px ;
+  margin-left:auto ;
+  margin-right:auto ;
+
+}
+#imgRes{
+  border-radius: 40px;
+  opacity: 0.95;
+
+}
