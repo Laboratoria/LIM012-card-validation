@@ -29,7 +29,7 @@ let boton1= document.getElementById("myBtn1");
 let valid = ()=> {
 let numIngresado = document.getElementById("numCard").value;
   
-  if (numIngresado !==""){
+  if (numIngresado !=="" && numIngresado.length<=16){
     
     if(validator.isValid(numIngresado) == true){
       
@@ -38,9 +38,11 @@ let numIngresado = document.getElementById("numCard").value;
       document.getElementById("redesSociales").style.display="";
       
     } else{
-      alert("tarjeta inválida")
+      
+      alert("Tarjeta inválida")
+      
     }
-
+    
 
   } else{
         alert("Campo Obligatorio")
@@ -67,88 +69,6 @@ back.addEventListener("click", ()=>{
 
 
 
-
-
-// $(document).ready(function(){
-
-//   let banner={
-//     padre : $("#banner"),
-//     numSlides: $("#banner").children(".anuncio").length,
-//     posicion: 1
-//   }
-  
-//   banner.padre.children(".anuncio").first().css({
-//     "left": 0
-//   });
-  
-//   let altoBanner = function() {
-//     let alto = banner.padre.children(".anuncio").outerHeight();
-//     banner.padre.css({
-//       "height": alto + "px"
-//     });
-//   }
-  
-//   altoBanner();
-  
-//   $("#next").on("click", function(e){
-//     e.preventDefault();
-//     if(banner.posicion<banner.numSlides){
-//       banner.padre.children().not(".active").css({
-//       "left":"100%"
-//        });
-//       $("#banner .active").removeClass("active").next().addClass("active").animate({
-//       "left": "0"
-//     });
-  
-//     $("#banner .active").prev().animate({
-//       "left" : "-100%"
-//     });
-  
-//     banner.posicion = banner.posicion + 1;
-//     } else {
-//       $("#banner .active").animate({
-//         "left": "-100%"
-//       });
-//       banner.padre.children().not(".active").css({
-//         "left":"100%"
-//          });
-//       $("#banner .active").removeClass("active");
-//       banner.padre.children(".anuncio").first().addClass("active").animate({
-//         "left" :"0"
-//       });
-//       banner.posicion= 1;
-//     }
-//   });
-
-//   $("#preview").on("click",function(e){
-//     e.preventDefault();
-    
-//     if(banner.posicion>1){
-//       banner.padre.children().not(".active").css({
-//         "left": "-100%"
-//       });
-//       $("#banner .active").animate({
-//         "left" : "100%"
-//       });
-//       $("#banner .active").removeClass("active").prev().addClass("active").animate({
-//         "left" : "0"
-//       });
-//       banner.posicion = banner.posicion - 1;
-//     }else {
-//       banner.padre.children().not(".active").css({
-//         "left" : "-100%"
-//       });
-//       $("#banner .active").animate({
-//         "left": "100%"
-//       });
-//       $("#banner .active").removeClass("active");
-//       banner.padre.children().last().addClass("active").animate({
-//         "left" : "0"
-//       });
-//       banner.posicion= banner.numSlides;
-//     }    
-//   });  
-//   });
 
 
 // console.log(validator);

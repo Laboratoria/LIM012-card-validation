@@ -145,6 +145,11 @@ Estos puntos los presentarás en el `README.md`.
 
 Debe contener lo siguiente:
 
+
+## FULL MUSIC
+* La página que te permitirá acceder a una plataforma con contenido musical de 
+todos los géneros depués de validar tu tarjeta de crédito.
+
 * Un título con el nombre de tu proyecto.
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
 * La imagen final de tu proyecto.

@@ -14,9 +14,7 @@ body{
     font-family: "poppins", sans-serif;
 }
 
-/* a{
-    text-decoration: "none";
-} */
+
 
 .public {
     width: 90%;
@@ -27,46 +25,6 @@ body{
     align-items: center;
 }
 
-/* .public {
-    overflow: hidden;
-    z-index: 1000;
-    position: relative;
-    
-} */
-
-/* .public .banner {
-    position: relative;
-    width: 100%;
-} */
-
-/* .public .banner img{
-    vertical-align: top;
-    width: 100%;
-    position: absolute;
-    top:0;
-    left:100%;
-
-} */
-/* .public .flecha{
-    font-size: 50px;
-    line-height: 50px;
-    color: rgba(255, 255, 255,0.5);
-    position: absolute;
-    top: 50%;
-    z-index: 1100;
-} */
-
-/* .public .flecha:hover{
-    color:rgba(73, 61, 61, 0.3)
-} */
-
-/* .public .left {
-    left:20px;
-}
-.public .rigth {
-    right:20px;
-} */
-
 .login {
    
     background: white;
@@ -76,9 +34,8 @@ body{
     padding-bottom: 20px;
     border-radius: 0 0 20px 20px;
     border: black 1px;
-     
+ 
 }
-
 
 .title{
     background-color: black;
@@ -87,7 +44,6 @@ body{
     padding: 8px;
     font-family: Calibri;
 }
-
 
 .formulario input{
     border: 1px solid rgb(182, 180, 181);
@@ -120,16 +76,14 @@ input::-webkit-input-placeholder{
     border-radius: 30px;
     margin-left: 42%;
     border:0;
-    
-   
 }
+
 .btn:hover {
     background: rgba(114, 135, 233,0.5);
     }
 
 .pag2{
     position: relative;
-    
 }
 
 p{
@@ -139,7 +93,6 @@ p{
     text-align: justify;
     position: relative;
     left: 35px;
-    /* font-family: "poppins", sans-serif; */
     top: -15px;
 }
 .columna2, .pag3{
@@ -149,7 +102,6 @@ p{
     left:880px;
     width: 400px;
     height: 500px;
-    /* background: rgba(181, 228, 93, 0.5); */
     background: url(imagenes/ad10.png);
     background-size: cover;
     border-radius: 20px;
@@ -174,7 +126,6 @@ p{
 
 .btn1{
     background: rgb(114, 135, 233);
-    /* text-align: center; */
     padding: 10px;
     border: 5px rgb(255, 255, 255);
     border-radius: 5px;
@@ -200,9 +151,6 @@ p{
 .btn2:hover {
     background: rgba(245, 221, 7, 0.5);
     }
-
-
-
 
 .fila1{
     width: 400px;
@@ -284,4 +232,10 @@ p{
     border-radius: 15px;
 }
 
+.dem{
+    position: relative;
+    bottom: 40px;
+    left: 130px;
+    font-size: 12px;
+}
 
