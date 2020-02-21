@@ -147,8 +147,16 @@ Debe contener lo siguiente:
 
 
 ## FULL MUSIC
-* La página que te permitirá acceder a una plataforma con contenido musical de 
+
+FULL MUSIC, la página que te permitirá acceder a una plataforma con contenido musical de 
 todos los géneros depués de validar tu tarjeta de crédito.
+
+### PANTALLAS DEL PROYECTO
+
+#### VISTA PRIMERA PANTALLA
+
+!(./imagenes/PAG1.png)
+
 
 * Un título con el nombre de tu proyecto.
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
