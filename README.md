@@ -176,7 +176,7 @@ Para acceder a éste contenido será necesario que el usuario cree una cuenta, p
 El usuario podrá interactuar de manera dinámica con cada funcionalidad de la página.
 
 
-
+![](PROTOTIPO.jpeg)
 
 
 
