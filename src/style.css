@@ -11,7 +11,9 @@ header{
 }
 main{
     height: 400px;
+    margin:0 auto;
 }
+
 .hide{
     display: none;
 }
