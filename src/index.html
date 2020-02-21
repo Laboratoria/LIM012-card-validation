@@ -3,12 +3,134 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <div style="display:block" class="primeraparte" id="primeraparte">
+      <div class="superior">
+      <h7>ErickaClothes</h7>
+        <p style="position: absolute;
+            left: 36.63%;
+            right: 37.98%;
+            top: -87%;
+            bottom: 0%;
+            font-family: Overlock;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+            font-feature-settings: 'cpsp' on;
+            color: #FF5F6B;
+            ">Incio</p>
+        <p style="position: absolute;
+            left: 46.03%;
+            right: 28.59%;
+            top: -87%;
+            bottom: 0%;
+
+            font-family: Overlock;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+            font-feature-settings: 'cpsp' on;
+
+            color: #FF5F6B;
+            ">Nuevo Ingreso</p>
+        <p style=" position: absolute;
+          left: 63.86%;
+          right: 10.76%;
+          top: -87%;
+          bottom: 0%;
+          font-family: Overlock;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 29px;
+          display: flex;
+          align-items: center;
+          text-transform: capitalize;
+          font-feature-settings: 'cpsp' on;
+          color: #FF5F6B;">Verano</p>
+        <p style="position: absolute;
+          left: 74.61%;
+          right: 0%;
+          top: -87%;
+          bottom: 0%;
+
+          font-family: Overlock;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 29px;
+          display: flex;
+          align-items: center;
+          text-transform: capitalize;
+          font-feature-settings: 'cpsp' on;
+
+          color: #FF5F6B;" >Jeans</p>
+        <img src="carrito.jpg" style="position: absolute;
+            width: 50px;
+            height:45px;
+            left: 86.62%;
+            right: 9%;
+            top: 3.8%;
+            bottom: 5.06%;">
+    </div>
+    <img src="pagoseguro.png" class="cand">
+    <div class="fronter">
+        <h8 style="background-color: rgb(253,157,171);
+          justify-content: center;
+          left: 0%;" >Información de pago</h8>
+    </div>
+    <div class="contenedor">
+          <h2>Resumen de pago</h2>
+          <p>Vestido Top Katy 17,50$</p>
+          <h3 > Total  17,50$</h3>
+    </div>
+    <div class="lateral">
+      <img src="vestido3.png" style="position: absolute;top: 22%;width: 390px; right:0%">
+        <h10>NEW <br>COLLECTION</h10>
+    </div>
+
+    <h4>Registrate</h4>
+
+    <div class="ident">
+      <input type= "text" name= "nombre" placeholder= "name" id= "nombre" style= "transform: translatex(100%)translateY(-390px)"> <br>
+      <input type= "text" name= "correo" placeholder= "email" id= "email" style= "transform: translatex(100%)translateY(-360px)"> <br>
+    </div>
+
+  <h5>Medio de pago</h5>
+
+    <div style= "text-align:center; justify-content: center;
+          transform: translateY(-237px)" class="radio">
+      <label><input type="radio" name="card" value="" id="carddeb">Tarjeta de debito</label>
+      <label><input type="radio" name="card" value="" id="cardcred">Tarjeta de credito</label>
+    </div>
+
+    <img src="tarjetas.png" style="width:290px;height:120px;transform: translatex(190%)translateY(-310%)">
+
+  <div class="numero">
+    <h6>Numero de tarjeta</h6>
+    <input type= "text" class= "tarjeta" id= "tarjeta" placeholder= "16 digitos" maxlength="16" >
+    <h9 >  Presione VALIDAR para confirmar su pago</h9>
+    <input type="button" class="button" id="btn"  value="VALIDAR">
+      <p id="mensaje1"></p>
+    </div>
+  </div>
+  <div class="segundaparte" id="segundaparte">
+        <h4>¡GRACIAS POR TU COMPRA¡</h4>
+      <h8  id="mensaje2"></h8>
+        <img src="VESTID02.png" style="width:350px;height:650px; transform: translateY(-280px)">
+  </div>
+
+  <script type= "module" src= "index.js" > </script>
+
   </body>
 </html>
