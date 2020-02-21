@@ -41,4 +41,5 @@ describe('validator', () => {
       expect(validator.maskify("helloworld")).toBe("######orld");
     });
   });
+  
 });
