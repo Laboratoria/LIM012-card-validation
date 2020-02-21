@@ -155,8 +155,17 @@ todos los géneros depués de validar tu tarjeta de crédito.
 
 #### VISTA PRIMERA PANTALLA
 
-![as](PAG1.PNG)
+![](PAG1.PNG)
 
+
+### VISTA SEGUNDA PANTALLA
+
+![](PAG2.PNG)
+
+
+### VISTA TERCERA PANTALLA
+
+![](PAG3.PNG)
 
 * Un título con el nombre de tu proyecto.
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
