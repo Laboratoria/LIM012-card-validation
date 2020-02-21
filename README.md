@@ -153,17 +153,17 @@ todos los géneros depués de validar tu tarjeta de crédito.
 
 ### PANTALLAS DEL PROYECTO
 
-#### VISTA PRIMERA PANTALLA
+#### :one: VISTA PRIMERA PANTALLA
 
 ![](PAG1.PNG)
 
 
-### VISTA SEGUNDA PANTALLA
+### :two: VISTA SEGUNDA PANTALLA
 
 ![](PAG2.PNG)
 
 
-### VISTA TERCERA PANTALLA
+### :three: VISTA TERCERA PANTALLA
 
 ![](PAG3.PNG)
 
