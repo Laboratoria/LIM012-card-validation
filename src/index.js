@@ -5,37 +5,46 @@ document.getElementById("pag3").style.display="none";
 
 
 
-let boton= document.getElementById("myBtn");
+const boton= document.getElementById("myBtn");
 
 boton.addEventListener("click", ()=> {
 
-let nombreCompleto = document.getElementById("nombreCompleto").value;
-let correoElectrónico = document.getElementById("correoElectrónico").value;
-let númeroTeléfono  = document.getElementById("númeroTeléfono").value;
-let dni  = document.getElementById("dni").value;
+const nombreCompleto = document.getElementById("nombreCompleto").value;
+const correoElectrónico = document.getElementById("correoElectrónico").value;
+const númeroTeléfono  = document.getElementById("númeroTeléfono").value;
+const dni  = document.getElementById("dni").value;
 
 
        if(nombreCompleto == false || correoElectrónico == false || númeroTeléfono == false || dni == false){
              alert("Todos los campos son obligatorios");
        } else {
-            document.getElementById("pag1").style.display="none";
+            document.getElementById("contenedor1").style.display="none";
             document.getElementById("pag2").style.display="";
             document.getElementById("public").style.display="none";
+            document.getElementById("piePagina").style.display="none";
        }
 });
 
 
-let boton1= document.getElementById("myBtn1");
-let valid = ()=> {
-let numIngresado = document.getElementById("numCard").value;
+const boton1= document.getElementById("myBtn1");
+const valid = ()=> {
+const numIngresado = document.getElementById("numCard").value;
   
   if (numIngresado !=="" && numIngresado.length<=16){
     
     if(validator.isValid(numIngresado) == true){
       
+      document.getElementById("demo").innerHTML= "No olvide corroborar su información, si es correcta dale siguiente:"
+      document.getElementById("demo1").innerHTML= validator.maskify(numIngresado);
+      document.getElementById("demo2").innerHTML= "Nombre    : " +  document.getElementById("nombreCompleto").value
+      document.getElementById("demo3").innerHTML= "E-mail    : " +  document.getElementById("correoElectrónico").value
+      document.getElementById("demo4").innerHTML= "Teléfono  : " +  document.getElementById("númeroTeléfono").value
+      document.getElementById("demo5").innerHTML= "DNI       : " +  document.getElementById("dni").value
       document.getElementById("pag2").style.display="none";
       document.getElementById("pag3").style.display="";
       document.getElementById("redesSociales").style.display="";
+      
+      
       
     } else{
       
@@ -51,22 +60,15 @@ let numIngresado = document.getElementById("numCard").value;
 }
 boton1.addEventListener("click", valid);
 
-let boton2= document.getElementById("myBtn2");
 
-let maskid = ()=>{
-  let numIngresado = document.getElementById("numCard").value;
-  document.getElementById("demo").innerHTML = validator.maskify(numIngresado);
-  
-}
-boton2.addEventListener("click",maskid);
-
-let back= document.getElementById("preview");
+const back= document.getElementById("preview");
 back.addEventListener("click", ()=>{
   document.getElementById("pag2").style.display="";
   document.getElementById("pag3").style.display="none";
   
-})
 
+  
+})
 
 
 

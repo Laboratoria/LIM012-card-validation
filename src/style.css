@@ -2,187 +2,228 @@
 *{
     margin:0;
     padding:0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    
 }
 
-body{
-    background: url("imagenes/bla.jpg");
+.piePagina{
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    
+}
+
+.contenedor1 {
+    background: url("imagenes/1.12.png");
     background-size: cover;
     background-attachment: fixed;
     font-family: "poppins", sans-serif;
-}
-
-
-
-.public {
-    width: 90%;
-    max-width: 700px;
-    margin: auto;
-    height: 100%;
-    display: flex;
-    align-items: center;
+    position: absolute;
+    height: 655px;
+    width: 1362px;
+  
 }
 
 .login {
-   
+
+    width: 300px;
+    height: 400px;
     background: white;
-    width: 90%;
-    max-width: 700px;
-    margin: auto;
-    padding-bottom: 20px;
-    border-radius: 0 0 20px 20px;
-    border: black 1px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    position: relative;
+    left: 525px;
+    top: 100px;
+    box-shadow: 10px 10px 10px rgb(26, 26, 26);
  
 }
 
 .title{
-    background-color: black;
-    color: white;
+    position: relative;
+    top: 35px;
+    padding: 5px;
+    font-size: 16px;
+    background: rgba(243, 147, 22, 0.5);
+    color: black;    
     text-align: center;
-    padding: 8px;
-    font-family: Calibri;
+}
+
+h2{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .formulario input{
+
     border: 1px solid rgb(182, 180, 181);
-    font-size: 12px;
-    height: 30px;
-    width: 60%;
     border-radius: 5px;
-    display: flex;
-    margin: 20px;
-    margin-left: 20%;
+    position: relative;
+    top: 100px;
+    left: 35px;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px rgba(112, 66, 5, 0.8);
 }
 
 input::-webkit-input-placeholder{
     color:rgba(103, 102, 109,0.7);
+    font-size: 11px;
 }
 
 .Card:hover ,
 .formulario :hover{
-    border: rgba(144, 135, 233, 0.8) 1px solid;
-}
-
-.Card:hover {
-    border: rgba(231, 81, 44, 0.8) 1px solid;
+    border: rgba(134, 57, 5, 0.8) 1px solid;
 }
 
 .btn{
-    background: rgb(114, 135, 233);
-    text-align: center;
-    padding: 15px;
-    border-radius: 30px;
-    margin-left: 42%;
-    border:0;
+
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 33%;
+    top: 120px;
+    background: rgb(122, 59, 6);
+    color: white;
+    border: transparent;
+    border-radius: 20px;
 }
 
 .btn:hover {
-    background: rgba(114, 135, 233,0.5);
+    background: rgba(243, 221, 22, 0.5);
+    color: black;
     }
+
+
 
 .pag2{
     position: relative;
 }
 
+.columna1{
+    position: fixed;
+}
+
+.columna2{
+    position: absolute;
+    left:830px;
+    top:100px;
+    font-family:"calibri", sans-serif;
+    background: rgb(255, 255, 255);
+    width: 350px;
+    height: 480px;
+    
+}
+
 p{
-    width: 330px;
-    color: white;
-    font-size: 12px;
+    
+    color: black;
+    background: white;
+    font-size: 14px;
     text-align: justify;
     position: relative;
-    left: 35px;
-    top: -15px;
+    padding: 20px;
+    top: 40px;
+    border-top: rgb(194, 132, 18)  5px solid;
+    border-bottom: rgb(194,132, 18) 5px solid;
 }
-.columna2, .pag3{
-    
-    position: absolute;
-    top:80px  ;
-    left:880px;
-    width: 400px;
-    height: 500px;
-    background: url(imagenes/ad10.png);
-    background-size: cover;
-    border-radius: 20px;
-    padding-top: 120px;
+
+.pay{
+    width: 150px;
+    position: relative;
+    left: 100px;
 }
 
 .Card{
+    height: 30px;
+    width: 100%;
+    position: relative;
+    top: 30px;
     border: 1px solid rgb(182, 180, 181);
     font-size: 13px;
-    height: 30px;
-    width: 60%;
     border-radius: 5px;
-    display: flex;
-    margin:50px;
-    margin-left: 20%;
-    bottom: 5em;
+    margin: 50px 0px;
+ 
 }
 
-.Card :hover{
-    border: rgba(212, 226, 11, 0.911) 1px solid;
-}
+
 
 .btn1{
-    background: rgb(114, 135, 233);
+    background: rgb(224, 202, 2);
     padding: 10px;
     border: 5px rgb(255, 255, 255);
     border-radius: 5px;
     margin-left: 40%;
 }
+
 .btn1:hover {
-    background: rgba(191, 250, 55, 0.5);
+    background: rgba(246, 250, 10, 0.5);
     }
 
-.btn2{
-    background: rgba(247, 244, 103, 0.5);
-    text-align: center;
-    padding: 10px;
-    border: 0;
-    border-radius: 5px;
-    margin-left: 42%;
-    margin-top: 5%;
+.franja{
     position: relative;
-    right: 50px;
-    top: 100px;
+    right: -1298px;
+  
 }
 
-.btn2:hover {
-    background: rgba(245, 221, 7, 0.5);
-    }
 
-.fila1{
+
+
+#pag3{
+    position: relative;
+}
+
+.franja2{
+    position: relative;
+    right: 5px;
+    
+  
+}
+
+.fila1 {
+    
     width: 400px;
-    height: 500px;
-    border-radius: 100px;
-    background: rgba(56, 46, 46, 0.3);
-    background-size: cover;
-    position: relative;
+    height: 530px;
+  
+    position: absolute;
+    left: 150px;
     top: 80px;
-    left: 90px;
-    display: inline-block;
-    text-align: center;
+
 }
+
 
 .fila2{
     position: fixed;
-    left: 500px ;
-    bottom: 20px;
+    left: 690px;
+    top: 40px;
 }
+
+.demo{
+    text-align: center;
+    font-family: "Montserrat" ,sans-serif;
+    padding: 10px;
+    border-right:rgb(204, 106, 15) double 4px;
+    border-left: rgb(204, 106, 15) double 4px;
+}
+
 .preview{
     position: relative;
-    right: 290px;
+    left: 40px;
     font-size: 50px;
-    top: 120px;
-    color: rgb(184, 35, 147);
+    top: 320px;
+    color: rgb(102, 51, 4);
 }
 .next{
     position: relative;
-    left: -40px;
+    left: 300px;
     font-size: 50px;
-    top: 120px;
-    color: rgb(184, 35, 147);
+    top: 320px;
+    color: rgb(102, 51, 4);
    
 }
 
@@ -190,22 +231,16 @@ p{
     color:rgba(247, 244, 103, 0.5)
 }
 
-.redesSociales{
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    top: 300px;
-}
 
 .redesSociales a{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
+    position: relative;
+    top: 150px;
+    left: 100px;
     line-height: 20px;
-    padding: 14px 0;
+    padding: 15px ;
+    padding-left: 20px;
+    
     color: rgb(255, 255, 255);
-    background-color: coral;
     border-radius: 50%;
     margin: 0 10px;
 }
@@ -216,26 +251,29 @@ p{
 .redesSociales a:hover{
     background: black;
     color: white;
-}
+} 
 
 
-.demo{
-    background-image: url("imagenes/ad8.png");
-    color: white;
-    background-size: cover;
-    height: 150px;
-    width: 210px;
-    position: absolute;
-    left: 100px;
-    top: 200px;
-    padding-top: 60px;
-    border-radius: 15px;
-}
 
-.dem{
-    position: relative;
-    bottom: 40px;
-    left: 130px;
-    font-size: 12px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
 

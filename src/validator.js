@@ -3,7 +3,7 @@ const validator = {
 
     isValid : (cardNum) =>{
         
-        let array= Array.from(cardNum);
+        const array= Array.from(cardNum);
         let arrayNew=[];
         let sumTotal=0;
         let sum=0;
@@ -45,7 +45,7 @@ const validator = {
     maskify: (cardNum) =>{
 
       let output = '';
-      let lastFour = cardNum.slice(-4, cardNum.length);
+      const lastFour = cardNum.slice(-4, cardNum.length);
 
             if (cardNum.length <= 4) {
                 return cardNum;
