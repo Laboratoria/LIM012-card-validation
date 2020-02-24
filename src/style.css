@@ -104,3 +104,8 @@ footer{
     width: 100%;
     height: 50px;
 }
+@media screen and (max-width: 800px) {
+    #wrapper {
+      width: 90%;
+    }
+  }

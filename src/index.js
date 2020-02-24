@@ -9,6 +9,7 @@ const namecli=document.getElementById('namecli');
 const form = document.querySelector('form');
 const showcli=document.getElementById('showcli');
 const showcard=document.getElementById('showcard');
+const btnback=document.getElementById('btnback');
 
 mensaje.innerHTML= '¡Bienvenido!';
 
@@ -17,6 +18,12 @@ btnback.addEventListener('click',()=>{
   resultado.classList.add("hide");
   datos.classList.remove("hide");
   mensaje.innerHTML= '¡Bienvenido!';
+})
+// validar el ingreso de solo numeros para la tarjeta
+creditCardNumber.addEventListener('keydown',(event)=> {
+  if((event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105) && event.keyCode !==190  && event.keyCode !==110 && event.keyCode !==8 && event.keyCode !==9  ){
+    event.preventDefault();
+  }
 })
 
 //  datos del formulario
