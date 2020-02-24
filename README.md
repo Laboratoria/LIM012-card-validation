@@ -27,14 +27,15 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 El proyecto consta de 2 pantallas:
 
-![proyecto final pantalla 1](https://drive.google.com/open?id=1ZVjwOPk-to0Tl3IUmnQkJMTv9AzjOTbR)
-![proyecto final pantalla 2](https://drive.google.com/open?id=1lxKPKC1i4NDZkyF5Dldos-JcLbVRRSlf)
+[proyecto final pantalla 1](https://drive.google.com/open?id=1ZVjwOPk-to0Tl3IUmnQkJMTv9AzjOTbR)
+[proyecto final pantalla 2](https://drive.google.com/file/d/1ZVjwOPk-to0Tl3IUmnQkJMTv9AzjOTbR/view?usp=sharing)
 ## 3. Investigacion UX
 
 ### Usuarios y objetivos
 
 Los usuarios personal de la Distribuidora Mayor buscan seguridad y rapidez
 para validar las tarjetas de crédito durante el proceso de pago.
+
 Su objetivo es captar más clientes dando un mejor servicio en el proceso de pago.
 
 ### Como soluciona el problema
