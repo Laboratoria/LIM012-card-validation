@@ -27,9 +27,9 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 El proyecto consta de 2 pantallas:
 
-![proyecto final pantalla 1](https://photos.google.com/photo/AF1QipNfI5OvAYRSzXR_nowz5201MccEW7WZTguCooj4)
+[proyecto final pantalla 1](https://photos.google.com/album/AF1QipO19qnhicC7FZXKpgG_YdJHPdW9jGUF1RcUUN0k/photo/AF1QipMOc7Q92cVE5bQP0FW5fpEDCSsibxHowrNRK1s0)
 
-[proyecto final pantalla 2](https://photos.google.com/photo/AF1QipOUu8t8EDDPDWjAlR4Ee2fx0_z1c6bduG0K7p_b)
+[proyecto final pantalla 2](https://photos.google.com/album/AF1QipO19qnhicC7FZXKpgG_YdJHPdW9jGUF1RcUUN0k/photo/AF1QipOw7BPJPK1F2XDToPEcEPFD5WO4MAB05zZBbnDZ)
 
 ## 3. Investigacion UX
 
@@ -47,6 +47,9 @@ crédito, sino lo tendrian que realizar manualmente con riesgo de error.
 
 ### Primer prototipo en papel
 
+[primer prototipo papel 1](https://photos.google.com/album/AF1QipNUxHU_5K25t_vcbG9wApaRYzxArWe2TEHxUw96/photo/AF1QipM__fqSml6np4s01Dvxq-Z8XD4uY_yV9D0i9-Op)
+
+[primer prototipo papel 2](https://photos.google.com/album/AF1QipNUxHU_5K25t_vcbG9wApaRYzxArWe2TEHxUw96/photo/AF1QipOfHWxyhPehh2QG8cFSal1Fv4Zafa08b3fcoI4P)
 
 ### Feedback
 
@@ -55,4 +58,7 @@ adecuados para guiar al usuario sobre la informacion a ingresar.
 
 ### Prototipo final
 
+[prototipo final 1](https://photos.google.com/album/AF1QipNnD64sOLVopaYmKab4NjwL5ouHQZKfhnOVMAvs/photo/AF1QipOHL1tn0rL_LqNLj5ajexSuEO90U8X2vbz7em3Q)
+
+[prototipo final 2](https://photos.google.com/album/AF1QipNnD64sOLVopaYmKab4NjwL5ouHQZKfhnOVMAvs/photo/AF1QipPmEtUUo2WTmXcp_WAUHE60gMfv2UTDbY4RdQzu)
 
