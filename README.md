@@ -27,9 +27,9 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 El proyecto consta de 2 pantallas:
 
-[proyecto final pantalla 1](https://photos.google.com/album/AF1QipO19qnhicC7FZXKpgG_YdJHPdW9jGUF1RcUUN0k/photo/AF1QipMOc7Q92cVE5bQP0FW5fpEDCSsibxHowrNRK1s0)
+[proyecto final pantalla 1](https://photos.app.goo.gl/N26J6vkV9YST3wiU6)
 
-[proyecto final pantalla 2](https://photos.google.com/album/AF1QipO19qnhicC7FZXKpgG_YdJHPdW9jGUF1RcUUN0k/photo/AF1QipOw7BPJPK1F2XDToPEcEPFD5WO4MAB05zZBbnDZ)
+[proyecto final pantalla 2](https://photos.app.goo.gl/6TvQMLkc4csKQ7J66)
 
 ## 3. Investigacion UX
 
