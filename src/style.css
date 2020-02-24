@@ -1,28 +1,106 @@
 body{
     color: #333;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    background:#fafbfd;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
 }
 header{
-    height: 100px;
+    height: 68px;
     font-size: 2em;
-    background: rgb(233, 228, 228);
-    align-content: center;
-}
-main{
-    height: 400px;
-    margin:0 auto;
+    background: #fff;
+    margin-bottom: 30px; 
+    border: 1px solid rgb(226, 232, 238);        
 }
 
+#wrapper{
+    background:#fff;    
+    border: 1px solid rgb(226, 232, 238);    
+    border-radius: 6px;
+    padding: 40px;
+    margin: 0 auto;
+    width: 30%;
+}
 .hide{
     display: none;
 }
-.mensaje{
-    color: red;
-    font-size: 3em;
-    font-style: italic;
+#mensaje{
+    font-weight: 200;
+    font-size: 1.8em;
+    padding: 0px 0px 20px;
 }
-footer{
-    height: 200px;
-    background: greenyellow
+label{
+    font-size: 1.2em;    
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid;
+    width: 100%;
+    padding: 6px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 1.4em;        
+}
+
+input[type=text]:focus {
+    outline: none; 
+    border-color:#df6442;
+}
+  
+button {
+    background-color: #eb8424;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;    
+    border-radius: 6px;
+    opacity: 0.8;
+}
+button:hover{
+    opacity: 1;
+}
+
+#btnback, a:link, a:visited{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;    
+    border: none;
+    background-color:inherit;
+    color:#eb8424;
+    text-decoration: none;
+    font-weight: 400;
+    width: 0%;
+    opacity: 0.8;  
+    margin-left: 50px;
+    padding: 1px;   
+}
+a:link{
+    margin-left:220px;
+}
+a:hover{
+    opacity: 1;
+}
+#resultado p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    margin: 5px 0;
+    padding: 6px 10px;
+}
+
+footer{   
+   
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 75, 167);
+    text-align: center;
+    font-weight: 200;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
 }

@@ -9,7 +9,6 @@ const namecli=document.getElementById('namecli');
 const form = document.querySelector('form');
 const showcli=document.getElementById('showcli');
 const showcard=document.getElementById('showcard');
-const btnback=document.getElementById('btnback');
 
 mensaje.innerHTML= '¡Bienvenido!';
 
@@ -31,7 +30,7 @@ form.addEventListener('submit',(event)=> {
     if (validator.isValid(cardNumber)) {
       mensaje.innerHTML= 'Nro. de Tarjeta valida';
     } else {
-      mensaje.innerHTML= 'Nro. de Tarjeta no valida, verifique porfavor';
+      mensaje.innerHTML= 'Nro. de Tarjeta no valida';
     }
     showcli.innerHTML=namecli.value;  
     showcard.innerHTML=validator.maskify(cardNumber);
