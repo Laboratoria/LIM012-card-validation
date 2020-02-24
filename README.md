@@ -27,14 +27,17 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 El proyecto consta de 2 pantallas:
 
-![proyecto final pantalla 1](https://drive.google.com/open?id=1ZVjwOPk-to0Tl3IUmnQkJMTv9AzjOTbR)
-![proyecto final pantalla 2](https://drive.google.com/open?id=1lxKPKC1i4NDZkyF5Dldos-JcLbVRRSlf)
+[proyecto final pantalla 1](https://photos.app.goo.gl/N26J6vkV9YST3wiU6)
+
+[proyecto final pantalla 2](https://photos.app.goo.gl/6TvQMLkc4csKQ7J66)
+
 ## 3. Investigacion UX
 
 ### Usuarios y objetivos
 
 Los usuarios personal de la Distribuidora Mayor buscan seguridad y rapidez
 para validar las tarjetas de crédito durante el proceso de pago.
+
 Su objetivo es captar más clientes dando un mejor servicio en el proceso de pago.
 
 ### Como soluciona el problema
@@ -44,6 +47,9 @@ crédito, sino lo tendrian que realizar manualmente con riesgo de error.
 
 ### Primer prototipo en papel
 
+[primer prototipo papel 1](https://photos.app.goo.gl/spQFzzwX2bk5gJtM9)
+
+[primer prototipo papel 2](https://photos.app.goo.gl/i16avRHYEMRQprA67)
 
 ### Feedback
 
@@ -52,4 +58,7 @@ adecuados para guiar al usuario sobre la informacion a ingresar.
 
 ### Prototipo final
 
+[prototipo final 1](https://photos.app.goo.gl/cDZinT3Xk4kkouq49)
+
+[prototipo final 2](https://photos.app.goo.gl/jX9H9bavJTBDPoGd9)
 
