@@ -6,31 +6,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>DISTRIBUIDORA MAYOR </header>
+    <header><img src="img\logodist.jpg" alt=""> </header>
     <main>
-      <div id="mensaje"></div>
-      <div id="datos">
-        <form>
-            <label for="namecli">Nombre *</label> <br>
-            <input type="text" name="namecli" id="namecli" required placeholder="Ingrese su nombre"  > <br><br>
-            <label for="cardcli">Numero de Tarjeta de Credito *</label> <br>
-            <input type="text" name="cardcli" id="cardcli" required maxlength="16" placeholder="Ingrese su numero de tarjeta"> <br><br>
-            <button id="btnsend">CONTINUAR</button>
-            <p>* Datos necesarios</p>
-          </form>
-      </div>
-      <div id="resultado" class="hide">
-          <br>
-          <label>Nombre </label> <br>
-          <p id="showcli"> </p><br>
-          <label>Numero de Tarjeta de Credito </label> <br>
-          <p id="showcard"> </p><br>
-          <button id="btnback">Volver</button>
-          <a  href="index.html"> Inicio</a>              
-      </div>     
+      <div id="wrapper">
+        <div id="mensaje"></div>
+        <div id="datos">
+          <form>
+              <label for="namecli">Nombre *</label> <br>
+              <input type="text" name="namecli" id="namecli" required placeholder="Ingrese su nombre"  > <br><br>
+              <label for="cardcli">Numero de Tarjeta de Credito *</label> <br>
+              <input type="text" name="cardcli" id="cardcli" required maxlength="16" placeholder="Ingrese su numero de tarjeta"> <br><br>
+              <button id="btnsend">Continuar</button>
+              <p>* Datos necesarios</p>
+            </form>
+        </div>
+        <div id="resultado" class="hide">
+            <label>Nombre </label> <br>
+            <p id="showcli"> </p><br>
+            <label>Numero de Tarjeta de Credito </label> <br>
+            <p id="showcard"> </p><br>
+            <button id="btnback">Volver</button>
+            <a  href="index.html"> Inicio</a>              
+        </div>
+    </div>
     </main>
     <footer>
-      <div id="pie"> Direccion: Telefono:</div>
+        <p><b>Dirección: </b> Av. Almte. Miguel Grau 629, Barranco Lima Peru  &nbsp &nbsp &nbsp 
+        <b> Teléfono: </b> 969 331 170</p>
     </footer>
     <script src="index.js" type="module"></script>
   </body>
