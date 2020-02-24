@@ -1,0 +1,252 @@
+#segundo {
+    display: none;
+  }
+  
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+hr {
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    left: 0px;
+    top: 205px;
+    
+    border: 2px solid #F9B337;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#logo {
+    position: absolute;
+    width: 241px;
+    height: 149px;
+    left: 50px;
+    top: 30px;
+}
+
+#btn1 {
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    left: 605px;
+    top: 818px;
+    background: #06A09A;
+    border: 1px solid #D8CACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#status1 {
+    position: absolute;
+    width: 395px;
+    height: 34px;
+    left: 634px;
+    top: 1000px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+#status2 {
+    position: absolute;
+    width: 395px;
+    height: 34px;
+    left: 634px;
+    top: 1000px;
+    color: rgb(243, 9, 9);
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+h1 {
+    position: relative;
+    width: 900px;
+    height: 61px;
+    left: 122px;
+    top: 360px; 
+    font-family: Rambla;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    color: #7E6C62;
+}
+
+h2 {
+    position: absolute;
+    width: 418px;
+    height: 61px;
+    left: 115px;
+    top: 245px;
+    
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #7E6C62;    
+}
+
+p1 {
+    position: absolute;
+    width: 306px;
+    height: 29px;
+    left: 550px;
+    top: 581px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #262323;
+}
+
+#btn2 {
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    left: 605px;
+    top: 911px;
+    background: #F9B235;
+    border: 1px solid #D8CACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+p2 {
+    position: absolute;
+    width: 652px;
+    height: 34px;
+    left: 399px;
+    top: 433px;
+    
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    
+    color: #585858;    
+}
+
+#email {
+    position: absolute;
+    width: 678px;
+    height: 66px;
+    left: 381px;
+    top: 649px;
+    background: #E5E5E5;
+    border: 1px solid #D8CACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 41px;
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: rgba(0, 0, 0, 0.24);
+}
+
+.formulario {
+    position: absolute;
+    width: 678px;
+    height: 401px;
+    left: 381px;
+    top: 487px;
+    
+    background: #06A09A;
+    border: 1px solid #D8CACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 41px;
+}
+.form--input1 {
+    position: absolute;
+    width: 515px;
+    height: 50px;
+    left: 82px;
+    top: 67px;
+    
+    background: #E5E5E5;
+    border: 1px solid #D8CACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.form--input2 {
+    position: absolute;
+    width: 515px;
+    height: 50px;
+    left: 82px;
+    top: 305px;
+    
+    background: #E5E5E5;
+    border: 1px solid #D8CACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.form--label1 {
+    position: absolute;
+    width: 244px;
+    height: 34px;
+    left: 82px;
+    top: 26px;
+    
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+}
+
+.form--label2 {
+    position: absolute;
+    width: 591px;
+    height: 34px;
+    left: 82px;
+    top: 262px;
+    
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+}
+
+#logovisa {
+    position: absolute;
+    width: 57px;
+    height: 29px;
+    left: 504px;
+    top: 610px;
+
+}

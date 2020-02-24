@@ -6,13 +6,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <hr>
+      <div id= "logo">
+      <img src="imágenes/logo.PNG" >
+      </div>
+    </header>
     <main>
-      <div id="primera vista">
+      <div id="inicio">
         <h1>Finalizar compra</h1>
-        <input type="text" name="name" id="name" placeholder="example@gmail.com"><br>
-    </main>
-    <footer></footer>
+        <p1>Ingrese su email para continuar</p1>
+        <input type="text" name="email" id="email" placeholder="example@gmail.com"></br>
+        <button type="button" id="btn1">Continuar</button>
+      </div>
+
+      <div id="segundo">
+          <h2>Validación de tarjeta</h2>
+          <p2>Es importante validar su tarjeta para continuar la compra</p2>
+            <form action="" class="formulario">
+            <label for="creditCardNumber" class="form--label1">Número de tarjeta</label></br>
+            <input type="text" id="creditCardNumber" maxlength = '16' class="form--input1"></br>
+            <label for="nameCliente" class="form--label2">Nombre y apellido que figura en la tarjeta</label></br>
+            <input type="text" id="nameCliente" class="form--input2"></br>
+          </form>
+          <div id="logovisa">
+            <img src="imágenes/visa.png">
+          </div>
+          <button type="button" id="btn2">Validar</button>
+      </div>
+      <div id = "status1"></div>
+      <div id = "status2"></div>
+      </main>
     <script src="index.js" type="module"></script>
   </body>
 </html>
