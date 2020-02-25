@@ -6,7 +6,7 @@ const validator = {
         const array= Array.from(cardNum);
         let arrayNew=[];
         let sumTotal=0;
-        let sum=0;
+        
 
           for(let i=array.length-1; i>=0 ;i--){
             arrayNew.push(array[i]);
@@ -21,14 +21,14 @@ const validator = {
               sumTotal+= parseInt(arrayNew[j])*2;
              
             }else {
-               let mixer= parseInt(arrayNew[j])*2;
-               let inText= mixer.toString();
+               let paresM= parseInt(arrayNew[j])*2;
+               let inText= paresM.toString();
                for(let k=0; k<inText.length; k++){
-                 sum+=parseInt(inText[k]);
+                 sumTotal+=parseInt(inText[k]);
                }
             } 
           }
-        sumTotal+=sum;
+        
 
       
           if(sumTotal%10==0){
@@ -44,17 +44,15 @@ const validator = {
     
     maskify: (cardNum) =>{
 
-      let output = '';
-      const lastFour = cardNum.slice(-4, cardNum.length);
-
-            if (cardNum.length <= 4) {
-                return cardNum;
-            } else {
-              for (let i = 0; i < cardNum.length -4; i++) {
-              output += '#';
-            }
-            }
-      return output + lastFour;
+      
+      let after= "";
+      let post= cardNum.slice(-4);
+      
+      for( let i=0; i<cardNum.length-4; i++){
+        after += "#";
+      }
+      
+      return after + post;
       
     }
 }

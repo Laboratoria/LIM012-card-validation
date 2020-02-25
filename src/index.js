@@ -3,17 +3,13 @@ import validator from './validator.js';
 document.getElementById("pag2").style.display="none";
 document.getElementById("pag3").style.display="none";
 
-
-
 const boton= document.getElementById("myBtn");
-
 boton.addEventListener("click", ()=> {
 
-const nombreCompleto = document.getElementById("nombreCompleto").value;
-const correoElectrónico = document.getElementById("correoElectrónico").value;
-const númeroTeléfono  = document.getElementById("númeroTeléfono").value;
-const dni  = document.getElementById("dni").value;
-
+  const nombreCompleto = document.getElementById("nombreCompleto").value;
+  const correoElectrónico = document.getElementById("correoElectrónico").value;
+  const númeroTeléfono  = document.getElementById("númeroTeléfono").value;
+  const dni  = document.getElementById("dni").value;
 
        if(nombreCompleto == false || correoElectrónico == false || númeroTeléfono == false || dni == false){
              alert("Todos los campos son obligatorios");
@@ -28,9 +24,9 @@ const dni  = document.getElementById("dni").value;
 
 const boton1= document.getElementById("myBtn1");
 const valid = ()=> {
-const numIngresado = document.getElementById("numCard").value;
+  const numIngresado = document.getElementById("numCard").value;
   
-  if (numIngresado !=="" && numIngresado.length<=16){
+  if (numIngresado !==""){
     
     if(validator.isValid(numIngresado) == true){
       
@@ -44,19 +40,15 @@ const numIngresado = document.getElementById("numCard").value;
       document.getElementById("pag3").style.display="";
       document.getElementById("redesSociales").style.display="";
       
-      
-      
     } else{
       
       alert("Tarjeta inválida")
-      
+     
     }
     
-
   } else{
         alert("Campo Obligatorio")
   }
-
 }
 boton1.addEventListener("click", valid);
 
@@ -65,9 +57,6 @@ const back= document.getElementById("preview");
 back.addEventListener("click", ()=>{
   document.getElementById("pag2").style.display="";
   document.getElementById("pag3").style.display="none";
-  
-
-  
 })
 
 
