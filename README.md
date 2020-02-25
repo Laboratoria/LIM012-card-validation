@@ -1,5 +1,3 @@
-README
-
 # Tarjeta de crédito válida
 
 ## Índice
@@ -79,17 +77,17 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### Testing
 
-* [x ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
+* [ ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
 
 ### Git y GitHub
 
 * [ ] [Comandos de git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/04-commands)
   (`add` | `commit` | `pull` | `status` | `push`).
-* [x ] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
+* [ ] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
 
 ### Buenas prácticas de desarrollo
 
-* [ x] Organizar y dividir el código en módulos (Modularización).
+* [ ] Organizar y dividir el código en módulos (Modularización).
 * [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
@@ -112,7 +110,7 @@ Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
-Este proyecto es una pagina web de una empresa hotelera, y se enfoca en que los usuarios conozcan sus servicos y realicen reservaciones mediante una tarjeta de crédito.
+Este proyecto es sobre una pagina web de una empresa hotelera, y se enfoca en que los usuarios conozcan sus servicos y realicen reservaciones mediante una tarjeta de crédito.
 
 LINK FOTO DEL PROYECTO FINAL
 
@@ -121,18 +119,19 @@ https://drive.google.com/file/d/10QMMrnFNlmsrhUwdaaywE-5mfXsMPKpZ/view?usp=shari
 
 * Quiénes son los principales usuarios de producto.
 
-  Son aquellas personas interesadas en hospedarse en el hotel Four Seasons o que se encuentren en búsqueda de alguna opción de hospedaje.
+  Son aquellas personas que se encuentren en búsqueda de alguna opción de hospedaje y/o deseen realizar reservaciones.
+  
 
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
 
-  Informarse respecto a las caracteristicas del hospedaje. Desean obtener información.
-  Realizar reservaciones.
+  Informarse respecto a las caracteristicas del hospedaje. 
+  Realizar reservaciones por medio de la validación de tarjeta.
 
 
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-  Es una pagina que muestra de forma clara la ubicación de cada sector. Por ejemplo, para conocer los servicios que ofrecen, hay un boton en el inicio donde dice SERVICIOS, igual con reservaciones. No tiene que navegar por tada la pagina buscando esas opciones.
-  También se encuentra la validación de tarjeta, que le permitira guardar información de su tarjeta en caso sea valida para poder continuar con el formulario y completar la reserva.
+  Es una pagina que muestra de forma clara la ubicación de cada sector. Por ejemplo, para conocer los servicios que ofrecen, hay un boton en el inicio donde dice SERVICIOS, igual con RESERVACIONES. No tiene que navegar por tada la pagina en búsqueda de ellos.
+  También se encuentra la validación de tarjeta, que le permitirá guardar información de su tarjeta en caso sea valida para poder continuar con el formulario y completar la reserva.
 
 ### Interfaz de usuario (UI)
 
@@ -161,6 +160,7 @@ cómo tu aplicación lo soluciona.
   nuevo prototipo usando alguna herramienta para diseño de prototipos
 
   LINK DE PROTOTIPO DE ALTA FIDELIDAD
+
   https://www.figma.com/file/60gVDITXMlQ8i94FuipldL/VALID-CARD?node-id=0%3A1
 
   ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
