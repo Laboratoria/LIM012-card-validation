@@ -27,9 +27,9 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 El proyecto consta de 2 pantallas:
 
-[proyecto final pantalla 1](https://photos.app.goo.gl/N26J6vkV9YST3wiU6)
+![proyecto final pantalla 1](https://github.com/luzma-coder/LIM012-card-validation/blob/master/src/screen/imagenfinal1.jpg)
 
-[proyecto final pantalla 2](https://photos.app.goo.gl/6TvQMLkc4csKQ7J66)
+![proyecto final pantalla 2](https://github.com/luzma-coder/LIM012-card-validation/blob/master/src/screen/imagenfinal2.jpg)
 
 ## 3. Investigacion UX
 
@@ -47,9 +47,9 @@ crédito, sino lo tendrian que realizar manualmente con riesgo de error.
 
 ### Primer prototipo en papel
 
-[primer prototipo papel 1](https://photos.app.goo.gl/spQFzzwX2bk5gJtM9)
+![primer prototipo papel 1](https://github.com/luzma-coder/LIM012-card-validation/blob/master/src/screen/primprototipo1.jpg)
 
-[primer prototipo papel 2](https://photos.app.goo.gl/i16avRHYEMRQprA67)
+![primer prototipo papel 2](https://github.com/luzma-coder/LIM012-card-validation/blob/master/src/screen/primprototipo2.jpg)
 
 ### Feedback
 
@@ -58,7 +58,7 @@ adecuados para guiar al usuario sobre la informacion a ingresar.
 
 ### Prototipo final
 
-[prototipo final 1](https://photos.app.goo.gl/cDZinT3Xk4kkouq49)
+![prototipo final 1](https://github.com/luzma-coder/LIM012-card-validation/blob/master/src/screen/prototipofinal1.jpg)
 
-[prototipo final 2](https://photos.app.goo.gl/jX9H9bavJTBDPoGd9)
+![prototipo final 2](https://github.com/luzma-coder/LIM012-card-validation/blob/master/src/screen/prototipofinal2.jpg)
 
