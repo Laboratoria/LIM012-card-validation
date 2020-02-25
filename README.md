@@ -73,7 +73,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 * [x ] [Uso de bucles](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/02-loops)
 * [x ] [Uso de funciones](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/javascript/02-flow-control/03-functions)
 * [ ] [Datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [x ] Utilizar ES Modules (`import` | `export`).
+* [ ] Utilizar ES Modules (`import` | `export`).
 
 ### Testing
 
@@ -160,7 +160,6 @@ cómo tu aplicación lo soluciona.
   nuevo prototipo usando alguna herramienta para diseño de prototipos
 
   LINK DE PROTOTIPO DE ALTA FIDELIDAD
-
   https://www.figma.com/file/60gVDITXMlQ8i94FuipldL/VALID-CARD?node-id=0%3A1
 
   ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
