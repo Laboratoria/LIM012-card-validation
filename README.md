@@ -31,5 +31,8 @@ El usuario podrá interactuar de manera dinámica con cada funcionalidad de la p
 ![](PROTOTIPO.jpeg)
 
 
+![](PAG4.PNG)
 
+![](PAG5.PNG)
 
+![](PAG6.PNG)
