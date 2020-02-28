@@ -1,14 +1,181 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
+    
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Four Seasons</title>
+    
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <div id="bienvenida1">
+      <h1> <span>F</span>OUR SEASON<span>S</span> </h1>
+      <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+      <h2>HOTEL & SUITES</h2>
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+
+      <br>
+      <div class="contornoBotones">
+        <button class="botonMenu" id="nosotros"> NOSOTROS </button>
+        <button class="botonMenu" id="servicios"> SERVICIOS </button>
+        <button class="botonMenu" id="reservaciones"> RESERVACIONES </button> 
+        <br><br>
+        <img id="imagenMenuInicio" src="images/entrada.png">
+      </div>
+
+    </div>
+    <!--NOSOTROS-->
+    <div id="bienvenida4">
+      <h1> <span>F</span>OUR SEASON<span>S</span> </h1>
+      <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+      <h2>HOTEL & SUITES</h2>
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+    
+      <br><br>
+      <div class="contornoBotones">
+        <br>
+        <p id="pNosotros"> UN GRANDIOSO TODO INCLUIDO
+          Nos apasiona la calidad, el buen servicio y entendemos la importancia de prestar atención a cada detalle, 
+          por eso dedicamos todo nuestro esfuerzo para ofrecerte la mejor alternativa hotelera y turística del 
+          mercado, diseñando la experiencia “Todo Incluido” que te llevará a disfrutar sin preocupaciones y  dedicado 
+          exclusivamente al descanso, la relajación y el entretenimiento, emocionando tu corazón y dejando en  tu mente
+          los mejores recuerdos de tu vida.</p>
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Unica+One" rel="stylesheet">
+        
+        <img class="pagCons" src="images/valores.png">
+        <br>
+        <button class="boton" id="volver">V O L V E R</button>
+      </div>
+    </div>
+    <!--SERVICIOS-->
+    <div id="bienvenida5">
+      <h1> <span>F</span>OUR SEASON<span>S</span> </h1>
+      <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+      <h2>HOTEL & SUITES</h2>
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+    
+      <br><br>
+      <div class="contornoBotones">
+        <br><br><br>
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Unica+One" rel="stylesheet">
+        <br><br>
+        <img class="pagCons" src="images/servicios.png">
+        <br>
+        <button class="boton" id="volver1">V O L V E R</button>
+      </div>
+    </div>
+
+    <!--Botones Reservaciones-->
+    <div id="bienvenida">
+      <h1> <span>F</span>OUR SEASON<span>S</span> </h1>
+      <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+      <h2>HOTEL & SUITES</h2>
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+      
+      <br>
+      <div class="contornoBotones" id="botonesInicio"> 
+        <button class="boton" id="btnPagoEfectivo"> PAGO EN EFECTIVO </button>
+        <button class="boton" id="btnPagoTarjeta"> PAGO CON TARJETA </button>
+        <img class="pagCons" src="images/reservaciones.png">
+    
+        
+      </div>
+
+    </div>
+     <!--Mensaje Pago en Efectivo-->
+     <div id="bienvenida2">
+        <h1> <span>F</span>OUR SEASON<span>S</span> </h1>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+        <h2>HOTEL & SUITES</h2>
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+
+        <br>
+        <div class="contornoBotones" id="msj1">
+          <br><br>
+          <p id="msjPagoEfectivo"></p>
+          <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Unica+One" rel="stylesheet">
+          <br><br>
+          <img class="pagCons" src="images/enconstruccion.png">
+          <br>
+          <button class="boton" id="volver2">V O L V E R</button>
+        </div>
+
+    </div>
+    
+        <!--Segunda Pantalla-->
+        
+    <div id="bienvenida3">
+        <h3> <span>F</span>OUR SEASON<span>S</span> </h3>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+        <h4>HOTEL & SUITES</h4>
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+        <br><br>
+        <div class="contornoBotones" id="ingresoTarjeta1">
+          <br><br><br>
+          <img class="visaM" src="images/visamastercard.png">
+          
+          <div class="contornoExtra">
+            <br><br><br><br><br><br>
+            <p> Necesitamos validar tu número de tarjeta para que comiences a hacer reservaciones </p>
+            <p> INGRESE LOS NÚMEROS DE LA TARJETA A CONSULTAR </p>
+            <input id="ingresoCardNumber" type="number" required >
+            <br>
+            <button class="botonV" id="btnValidar" > V A L I D A R </button>
+          </div>
+        </div>  
+    </div>
+    <div id="validacionTarjeta">
+        <h5> <span>F</span>OUR SEASON<span>S</span> </h5>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+        <h6>HOTEL & SUITES</h6>
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+        <div class="contornoBotones" id="ingresoTarjeta">
+          <br><br><br>
+          <img class="visaM" src="images/visamastercard.png">
+          
+          <div class="contornoExtra">
+            <br><br><br><br><br>
+            <p> EL NUMERO DE TARJETA INGRESADO ES : </p>
+            <p id="cardNumberAsterisco"></p>
+            <p id="numeroAsterisco"></p>
+            <button class="botonV" id="volver3"> V O L V E R</button>
+         </div>
+        </div> 
+
+    </div>
+    <div id="validacionTarjeta1">
+      <h5> <span>F</span>OUR SEASON<span>S</span> </h5>
+      <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+      <h6>HOTEL & SUITES</h6>
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+      <div class="contornoBotones" id="ingresoTarjeta2">
+        <br><br><br>
+        <img class="visaM" src="images/visamastercard.png">
+        
+        <div class="contornoExtra">
+          <br><br><br><br><br>
+          <p> EL NUMERO DE TARJETA INGRESADO ES : </p>
+          <p id="cardNumberAsterisco1"></p>
+          <p id="numeroAsterisco1"></p>
+          <button class="botonV" id="continuar"> C O N T I N U A R</button>
+       </div>
+      </div> 
+  
+  </div>
+  <div >
+    <img id="formulario" src="images/formulario1.png">
+    <button class="botonV" id="confirmar"> CONFIRMAR </button>
+       
+  </div>
+
+  <div id="final">
+    <p id="reservaFinal"></p>
+    <img id="imgRes" src="images/reserva1.png">
+    <br><br>
+    <button class="botonV" id="inicio"> I N I C I O </button>
+       
+  </div>
+    
+    <script type="module"  src="index.js"></script>
   </body>
 </html>
