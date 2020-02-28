@@ -59,13 +59,13 @@ document.getElementById("reservaciones").addEventListener("click", ()=>{
     
 });
 //Botón PAGO EFECTIVO
-document.getElementById("btnMenorDeEdad").addEventListener("click", ()=>{
+document.getElementById("btnPagoEfectivo").addEventListener("click", ()=>{
 
     document.getElementById("bienvenida2").style.display="block";
     document.getElementById("msj1").style.display="block";
     document.getElementById("bienvenida1").style.display="none";
     document.getElementById("bienvenida").style.display="none";  
-    document.getElementById("msjMenorDeEdad").innerHTML = "Estamos trabajando para aceptar pago efectivo. Tendrás noticias pronto!";
+    document.getElementById("msjPagoEfectivo").innerHTML = "Estamos trabajando para aceptar pago efectivo. Tendrás noticias pronto!";
 });
 
 //Botón  VOLVER PAGO EFECTIVO
@@ -78,7 +78,7 @@ document.getElementById("volver2").addEventListener("click", ()=>{
 
 //Botón PAGO CON TARJETA
 
-document.getElementById("btnMayorDeEdad").addEventListener("click", ()=>{
+document.getElementById("btnPagoTarjeta").addEventListener("click", ()=>{
     document.getElementById("bienvenida3").style.display="block";
     document.getElementById("ingresoTarjeta").style.display="block";
     document.getElementById("bienvenida").style.display="none";

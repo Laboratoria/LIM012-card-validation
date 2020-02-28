@@ -2,7 +2,7 @@ const validator = {
   isValid : (cardNumber)=>{
       let reverseNum = Array.from(cardNumber).reverse();
       let suma = 0;
-      let estado = true; //estado = 0 significa que el dato es valido
+      let estado = true; 
       for (let i = 0; i < reverseNum.length; i++) {
       
         // Verificar si la posición es par
@@ -13,14 +13,15 @@ const validator = {
             reverseNum[i] = reverseNum[i] - 9;
             }
         }
+        //suma numeros pares e impares, sin el parseInt aparece como NaN
         suma += parseInt(reverseNum[i]);
       }
         
       if (suma % 10 == 0 ){
-        estado == true; //estado = 0 Si el dato es válido
+        estado == true; 
       }
       else {
-        estado = false; //estado = 2 Si el dato es no válido
+        estado = false; 
       }    
       
       
@@ -28,9 +29,11 @@ const validator = {
   },
 
   maskify : (cardNumber)=>{
+      //convierto en un array y separo
       let card = Array.from(cardNumber);
         
         for (let i = 0; i <=card.length; i++) {
+            //no toca los ultimos 4 digitos independientemente de la cantidad de numeros que haya
             if (i<card.length-4){
                 card[i]="#";
             }
@@ -38,6 +41,7 @@ const validator = {
         }
     
         return card.join("");
+        //elimina las comas 
   }
 
 };
