@@ -2,9 +2,9 @@
     display: none;
   }
   
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 body {
     margin: 0;
@@ -247,6 +247,7 @@ p2 {
     width: 57px;
     height: 29px;
     left: 504px;
-    top: 610px;
+    top: 630px;
 
 }
+

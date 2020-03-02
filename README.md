@@ -1,3 +1,71 @@
+# Willapi
+
+Willapi es una empresa peruana que fabrica polos y casacas para jóvenes mujeres y varones. Willapi es una palabra quechua que significa color anaranjado como el entusiasmo de los jóvenes.
+
+  <img src="imágenes/logo.PNG">
+
+## Índice
+
+* [1. Descripción](#1-Descripción)
+* [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
+
+***
+
+## 1. Descipción
+
+La página web que permite validar la tarjeta de crédito pertenece a un sitio web de venta de ropa para jóvenes, la función de las paginas permite realizar la validación de las tarjetas para continuar con la compra online, en una sola página se le solicita el correo electrónico al usuario para registro y posterior envío de su boleta o factura electrónica, luego en la siguiente página se le solicita el número de la tarjeta y el nombre que figura en la tarjeta para realizar la validación.
+
+La siguiente imagen pertenece al prototipo inicial donde se diseñó el formulario y la interfaz utilizando los colores del imagotipo.
+![prototipo] ()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Tarjeta de crédito válida
 
 ## Índice

@@ -1,7 +1,7 @@
 const isValid = function (creditCardNumber) {
   const reverse = function(array) {
     let newArray = [];
-    let size = 16;
+    let size = array.length;
     let lastPosition = size - 1;
     for (let i = lastPosition; i >= 0; i--) {
       newArray.push(array[i]);
@@ -13,11 +13,10 @@ const isValid = function (creditCardNumber) {
   
   const multiply = function(array) {
     let newArray = [];
-    for (let index = 0; index < 16; index++) {
+    for (let index = 0; index < array.length; index++) {
       if (index % 2 !== 0) {
-        const castedNumber = Number(array[index]); //arreglo de Strings
+        const castedNumber = Number(array[index]); 
         const newNumber = castedNumber * 2;
-  
         newArray.push(String(newNumber));
       } else {
         newArray.push(array[index]);
@@ -28,7 +27,7 @@ const isValid = function (creditCardNumber) {
     
   const sumDigits = function(array) {
     let newArray = [];
-    for (let index = 0; index < 16; index++) {
+    for (let index = 0; index < array.length; index++) {
     const temp = Number(array[index]);
       if (temp >= 10) {
         const tempArray = array[index].split(''); //arreglo de Strings
