@@ -5,6 +5,7 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="imágenes/logo.PNG">
+    <meta name="viewport" content="with=device-with, initial-scale=1.0">
   </head>
   <body>
     <header>
@@ -25,7 +26,7 @@
         <p2>Es importante validar su tarjeta para continuar la compra</p2>
         <form action="" class="formulario">
           <label for="creditCardNumber" class="form--label1">Número de tarjeta</label> <br>
-          <input type="text" id="creditCardNumber" max-length = "16" class="form--input1"> <br>
+          <input type="text" id="creditCardNumber" maxlength = "16" class="form--input1"> <br>
           <label for="nameCliente" class="form--label2">Nombre y apellido que figura en la tarjeta</label> <br>
           <input type="text" id="nameCliente" class="form--input2"> <br>
         </form>
@@ -33,9 +34,18 @@
           <img src="imágenes/visa.png">
         </div>
         <button type="button" id="btn2">Validar</button>
+        <div id = "status1"></div>
       </div>
-      <div id = "status1"></div>
-      <div id = "status2"></div>
+      <div id = "status2">
+        <img src="imágenes/check.png">
+        <p3 id= "tarjeta válida"></p3>
+        <p4>Continuar con la compra <a href="http://127.0.0.1:5500/src/p%C3%A1gina%20en%20construcci%C3%B3n.html">aquí</a>
+        </p4>
+      </div>
+      <div id = "status3">
+        <img src="imágenes/x.png">
+        <p5 id= "tarjeta inválida"></p5>
+      </div>
     </main>
     <script src="index.js" type="module"></script>
   </body>
