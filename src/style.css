@@ -127,7 +127,7 @@ h2 {
     color: #7E6C62;    
 }
 
-p1 {
+#ingresaremail {
     position: absolute;
     width: 306px;
     height: 29px;
@@ -141,12 +141,12 @@ p1 {
     color: #262323;
 }
 
-p2 {
+#esimportantevalidar {
     position: absolute;
     width: 652px;
     height: 34px;
     left: 399px;
-    top: 433px;
+    top: 409px;
     font-family: Rambla;
     font-style: normal;
     font-weight: normal;
@@ -155,12 +155,12 @@ p2 {
     color: #585858;    
 }
 
-p3 {
+#tarjetaválida {
     position: absolute;
     width: 395px;
     height: 34px;
     left: 64px;
-    top: 2px;
+    top: -20px;
     color: rgb(0, 255, 0);
     font-family: Rambla;
     font-style: normal;
@@ -169,12 +169,12 @@ p3 {
     line-height: 34px;
 }
 
-p4 {
+#continuarcompra {
     position: absolute;
     width: 395px;
     height: 34px;
     left: 484px;
-    top: 2px;
+    top: -20px;
     color: rgb(59, 59, 59);
     font-family: Rambla;
     font-style: normal;
@@ -183,12 +183,12 @@ p4 {
     line-height: 34px;
 }
 
-p5 {
+#tarjetainválida {
     position: absolute;
     width: 395px;
     height: 34px;
     left: 64px;
-    top: 2px;
+    top: -20px;
     color: rgb(255, 0, 0);
     font-family: Rambla;
     font-style: normal;
