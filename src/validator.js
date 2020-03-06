@@ -1,5 +1,5 @@
-const isValid = function (creditCardNumber) {
-  const reverse = function(array) {
+const isValid = (creditCardNumber) => {
+  const reverse = (array) => {
     let newArray = [];
     let size = array.length;
     let lastPosition = size - 1;
@@ -11,7 +11,7 @@ const isValid = function (creditCardNumber) {
   // //   // return arr.reverse();
   };
   
-  const multiply = function(array) {
+  const multiply = (array) => {
     let newArray = [];
     for (let index = 0; index < array.length; index++) {
       if (index % 2 !== 0) {
@@ -25,7 +25,7 @@ const isValid = function (creditCardNumber) {
     return newArray;
   };
     
-  const sumDigits = function(array) {
+  const sumDigits = (array) => {
     let newArray = [];
     for (let index = 0; index < array.length; index++) {
     const temp = Number(array[index]);
@@ -44,7 +44,7 @@ const isValid = function (creditCardNumber) {
     return newArray;
   };
   
-  const sumTotal = function(array) {
+  const sumTotal = (array) => {
     let sum = 0;
     for (let i = 0; i < array.length; i++) {
       sum += Number(array[i]);
@@ -60,7 +60,7 @@ const isValid = function (creditCardNumber) {
   return isValidCardNumber;
 };
 
-const maskify = function (creditCardNumber) {
+const maskify = (creditCardNumber) => {
   let lastfour = creditCardNumber.length;
   let finalnumber = "";
   for(let i = 0; i < lastfour - 4; i++)
