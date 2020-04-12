@@ -62,6 +62,7 @@ h2{
 
     border: 1px solid rgb(182, 180, 181);
     border-radius: 5px;
+    border: none;
     position: relative;
     top: 100px;
     left: 35px;

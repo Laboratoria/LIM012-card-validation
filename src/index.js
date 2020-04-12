@@ -10,12 +10,12 @@ import validator from './validator.js';
 const boton= document.getElementById("myBtn");
 boton.addEventListener("click", ()=> {
 
-  const nombreCompleto = nombreCompleto.value;
-  const correoElectrónico = correoElectrónico.value;
-  const númeroTeléfono  = númeroTeléfono.value;
-  const dni  = dni.value;
+  const nombre_Completo = nombreCompleto.value;
+  const correo_Electrónico = correoElectrónico.value;
+  const número_Teléfono  = númeroTeléfono.value;
+  const dni_  = dni.value;
 
-       if(nombreCompleto == false || correoElectrónico == false || númeroTeléfono == false || dni == false){
+       if(nombre_Completo === '' || correo_Electrónico === '' || número_Teléfono === '' || dni_ === ''){
              alert("Todos los campos son obligatorios");
        } else {
             document.getElementById("contenedor1").style.display="none";
@@ -30,7 +30,7 @@ const boton1= document.getElementById("myBtn1");
 const valid = ()=> {
   const numIngresado = document.getElementById("numCard").value;
   
-  if (numIngresado !=="" ){
+  if (numIngresado !==""){
     
     if(validator.isValid(numIngresado) == true && numIngresado!=="0"){
       
