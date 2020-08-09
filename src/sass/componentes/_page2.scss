@@ -1,0 +1,53 @@
+@import "../global.scss";
+
+#page2 {
+  background-color: darkkhaki;
+  @include size(100%, 100vh);
+  @include mobile-screen() {
+    @include size(100%, 640px);
+  }
+
+  .general2 {
+    background: darkorange;
+    @include size(100%, 100%);
+    @include display-flex-column();
+
+    .content-center {
+      background: greenyellow;
+      @include size(80%, 90%);
+      @include display-flex-column();
+
+      img {
+        @include size(50%, 30%);
+        background-color: lightblue;
+        position: relative;
+        top: 20px;
+        width: 20%;
+        z-index:1;
+      }
+
+      .content-card {
+        background-color: rgb(184, 113, 113);
+        @include size(50%, 60%);
+        @include display-flex-column();
+        border-radius: 100px;
+
+        p{
+          background-color: lightgreen;
+          @include size(80%, 50%);
+          text-align: justify;
+        }
+        input {
+          @include size(80%, 20px);
+        }
+      }
+
+      .two-buttons {
+        background-color: indigo;
+        @include size(80%, 10%);
+        @include display-flex-row-between();
+      }
+    }
+  }
+
+}
