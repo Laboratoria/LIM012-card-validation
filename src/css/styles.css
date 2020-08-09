@@ -333,7 +333,8 @@ footer {
         position: relative;
         bottom: 20px;
         font-size: 20px;
-        color: #AF5500; }
+        color: #AF5500;
+        cursor: pointer; }
       #page3 .content-modal .internal-content img {
         width: 100px; }
       #page3 .content-modal .internal-content .description {
