@@ -1,51 +1,80 @@
 @import "../global.scss";
 
 #page2 {
-  background-color: darkkhaki;
   @include size(100%, 100vh);
   @include mobile-screen() {
     @include size(100%, 640px);
   }
 
   .general2 {
-    background: darkorange;
+    background: $color1;
     @include size(100%, 100%);
     @include display-flex-column();
 
     .content-center {
-      background: greenyellow;
       @include size(80%, 90%);
       @include display-flex-column();
+      @include mobile-screen(){
+        @include size(80%, 100%);
+      }
 
       img {
         @include size(50%, 30%);
-        background-color: lightblue;
-        position: relative;
-        top: 20px;
-        width: 20%;
-        z-index:1;
+         position: relative;
+        top: 50px;
+        width: 150px;
+        @include mobile-screen(){
+          width: 30%;
+          height: 20%;
+        }
       }
 
       .content-card {
-        background-color: rgb(184, 113, 113);
+        background-color: $color2;
         @include size(50%, 60%);
         @include display-flex-column();
         border-radius: 100px;
+        @include mobile-screen(){
+          @include size(90%, 60%);
+        }
 
         p{
-          background-color: lightgreen;
-          @include size(80%, 50%);
+          @include size(80%, 40%);
+          @include font-Roboto(13px);
           text-align: justify;
+          @include mobile-screen(){
+            @include font-Roboto(12px);
+          }
         }
         input {
-          @include size(80%, 20px);
+          @include size(80%, 30px);
+          background-color: $color8;
+          border-style: none;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), 0px 2px 4px rgba(0, 0, 0, 0.25), 0px 2px 4px rgba(0, 0, 0, 0.25);        display: flex;
+          text-indent: 5px;
+          margin-top: 10px;
+          @include mobile-screen(){
+            @include font-Roboto(12px);
+          }
+        }
+
+        .text-result{
+          margin-top: 10px;
+          color: $color3;
+          @include font-Roboto(12px);
+
         }
       }
 
       .two-buttons {
-        background-color: indigo;
-        @include size(80%, 10%);
+        @include size(90%, 10%);
         @include display-flex-row-between();
+
+        i{
+          font-size: 30px;
+          color: $color9;
+          cursor: pointer;
+        }
       }
     }
   }
