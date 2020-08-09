@@ -16,11 +16,8 @@ footer{
       @include size(90%, 100px);
       justify-content: space-evenly;
     }
-    // background-color: brown;
-
 
     .text-footer{
-      // background-color: yellow;
       @include size(30%, 30px);
       @include display-flex();
       @include  mobile-screen(){
@@ -34,7 +31,6 @@ footer{
     }
 
     .social-networks-container{
-      // background-color: rgb(102, 102, 67);
       @include size(30%, 30px);
       @include display-flex-row();
       @include  mobile-screen(){
@@ -42,11 +38,9 @@ footer{
       }
 
       .social-networks{
-        // background-color: darkgreen;
-        @include size(15%, 100%);
+         @include size(15%, 100%);
         @include display-flex();
         a{
-          // background-color: darkcyan;
           text-decoration:none;
           @include font-Roboto(16px);
           color: $color2;
