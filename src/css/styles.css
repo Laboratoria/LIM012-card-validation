@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@font-face {
+  font-family: 'Sifonn';
+  src: url("../webfonts/SIFONN_PRO.otf"); }
+
+@font-face {
+  font-family: 'Sifonn';
+  src: url("../webfonts/SIFONN_PRO.otf"); }
+
+#page1 {
+  width: 100%;
+  height: 100vh; }
+  @media (max-width: 700px) {
+    #page1 {
+      width: 100%;
+      height: 640px; } }
+  #page1 .general {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    @media (max-width: 700px) {
+      #page1 .general {
+        flex-direction: column; } }
+    #page1 .general .left-content {
+      width: 60%;
+      height: 100%;
+      background-image: url(../imagenes/cover-desktop.png);
+      background-size: 100% 100%; }
+      @media (max-width: 700px) {
+        #page1 .general .left-content {
+          width: 100%;
+          height: 0; } }
+    #page1 .general .right-content {
+      width: 40%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      @media (max-width: 700px) {
+        #page1 .general .right-content {
+          background-image: url(../imagenes/backgroun-mobile.png);
+          background-size: cover;
+          width: 100%;
+          height: 100%; } }
+      #page1 .general .right-content .login {
+        border-radius: 15px;
+        background: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 55%;
+        height: 75%; }
+        @media (max-width: 700px) {
+          #page1 .general .right-content .login {
+            width: 80%;
+            height: 80%; } }
+        #page1 .general .right-content .login h1 {
+          font-family: "Sifonn", sans-serif;
+          font-size: 24px;
+          font-weight: lighter;
+          border-left-style: double;
+          padding-left: 20px;
+          margin-top: 20px; }
+          #page1 .general .right-content .login h1 span {
+            color: #AF5500;
+            border-right-style: double;
+            padding-right: 20px; }
+        #page1 .general .right-content .login h3 {
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+          color: #2d2e25;
+          font-weight: bold; }
+        #page1 .general .right-content .login #login-form {
+          width: 80%;
+          height: 75%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          #page1 .general .right-content .login #login-form div {
+            color: #AF5500;
+            font-size: 12px; }
+            #page1 .general .right-content .login #login-form div span {
+              font-family: "Nanum Gothic", sans-serif;
+              font-size: 12px;
+              font-weight: lighter;
+              margin-left: 5px;
+              font-weight: bold; }
+          #page1 .general .right-content .login #login-form input {
+            width: 98%;
+            height: 8%;
+            margin-bottom: 10%;
+            margin-top: 2%;
+            border-style: none;
+            border-bottom: solid 1px #FFCF00;
+            font-size: 12px;
+            text-indent: 5px; }
+          #page1 .general .right-content .login #login-form button {
+            width: 60%;
+            height: 30px;
+            margin-top: 8%;
+            margin-left: 20%;
+            border-radius: 15px;
+            border-style: none;
+            color: white;
+            background: #AF5500;
+            cursor: pointer; }
+            @media (max-width: 700px) {
+              #page1 .general .right-content .login #login-form button {
+                border-radius: 50px; } }
+
+@font-face {
+  font-family: 'Sifonn';
+  src: url("../webfonts/SIFONN_PRO.otf"); }
+
+#page2 {
+  width: 100%;
+  height: 100vh; }
+  @media (max-width: 700px) {
+    #page2 {
+      width: 100%;
+      height: 640px; } }
+  #page2 .general2 {
+    background: linear-gradient(180deg, rgba(31, 31, 25, 0.8) 0%, rgba(255, 238, 0, 0.986) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #page2 .general2 .content-center {
+      width: 80%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      @media (max-width: 700px) {
+        #page2 .general2 .content-center {
+          width: 80%;
+          height: 100%; } }
+      #page2 .general2 .content-center img {
+        width: 50%;
+        height: 30%;
+        position: relative;
+        top: 50px;
+        width: 150px; }
+        @media (max-width: 700px) {
+          #page2 .general2 .content-center img {
+            width: 30%;
+            height: 20%; } }
+      #page2 .general2 .content-center .content-card {
+        background-color: white;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px; }
+        @media (max-width: 700px) {
+          #page2 .general2 .content-center .content-card {
+            width: 90%;
+            height: 60%; } }
+        #page2 .general2 .content-center .content-card p {
+          width: 80%;
+          height: 40%;
+          font-family: "Roboto", sans-serif;
+          font-size: 13px;
+          font-weight: bold;
+          text-align: justify; }
+          @media (max-width: 700px) {
+            #page2 .general2 .content-center .content-card p {
+              font-family: "Roboto", sans-serif;
+              font-size: 12px;
+              font-weight: bold; } }
+        #page2 .general2 .content-center .content-card input {
+          width: 80%;
+          height: 30px;
+          background-color: #f7f8b3;
+          border-style: none;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), 0px 2px 4px rgba(0, 0, 0, 0.25), 0px 2px 4px rgba(0, 0, 0, 0.25);
+          display: flex;
+          text-indent: 5px;
+          margin-top: 10px; }
+          @media (max-width: 700px) {
+            #page2 .general2 .content-center .content-card input {
+              font-family: "Roboto", sans-serif;
+              font-size: 12px;
+              font-weight: bold; } }
+        #page2 .general2 .content-center .content-card .text-result {
+          margin-top: 10px;
+          color: #AF5500;
+          font-family: "Roboto", sans-serif;
+          font-size: 12px;
+          font-weight: bold; }
+      #page2 .general2 .content-center .two-buttons {
+        width: 90%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+        #page2 .general2 .content-center .two-buttons i {
+          font-size: 30px;
+          color: #222221;
+          cursor: pointer; }
+
+@font-face {
+  font-family: 'Sifonn';
+  src: url("../webfonts/SIFONN_PRO.otf"); }
+
+footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d2e25; }
+  @media (max-width: 700px) {
+    footer {
+      width: 100%;
+      height: 150px; } }
+  footer .container-footer {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    @media (max-width: 700px) {
+      footer .container-footer {
+        flex-direction: column;
+        width: 90%;
+        height: 100px;
+        justify-content: space-evenly; } }
+    footer .container-footer .text-footer {
+      width: 30%;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      @media (max-width: 700px) {
+        footer .container-footer .text-footer {
+          width: 90%;
+          height: 30px; } }
+      footer .container-footer .text-footer p {
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 2px; }
+    footer .container-footer .social-networks-container {
+      width: 30%;
+      height: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      @media (max-width: 700px) {
+        footer .container-footer .social-networks-container {
+          width: 90%;
+          height: 30px; } }
+      footer .container-footer .social-networks-container .social-networks {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        footer .container-footer .social-networks-container .social-networks a {
+          text-decoration: none;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+          color: white;
+          cursor: pointer; }
+          footer .container-footer .social-networks-container .social-networks a i:hover {
+            color: #fff;
+            margin-top: 30%;
+            text-shadow: 0 0 5px #fbfd70, 0 0 10px #fbfd70, 0 0 20px #fbfd70, 0 0 40px #d2ff0a, 0 0 80px #d2ff0a, 0 0 90px #fbfd70, 0 0 100px #d2ff0a, 0 0 140px #d2ff0a, 0 0 180px #d2ff0a; }
+
+@font-face {
+  font-family: 'Sifonn';
+  src: url("../webfonts/SIFONN_PRO.otf"); }
+
+#page3 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px; }
+  @media (max-width: 700px) {
+    #page3 {
+      width: 100%;
+      height: 640px; } }
+  #page3 .content-modal {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #page3 .content-modal .internal-content {
+      width: 40%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: white; }
+      @media (max-width: 700px) {
+        #page3 .content-modal .internal-content {
+          width: 80%;
+          height: 80%; } }
+      #page3 .content-modal .internal-content i {
+        position: relative;
+        bottom: 20px;
+        font-size: 20px;
+        color: #AF5500; }
+      #page3 .content-modal .internal-content img {
+        width: 100px; }
+      #page3 .content-modal .internal-content .description {
+        width: 80%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        #page3 .content-modal .internal-content .description .state {
+          font-family: "Sifonn", sans-serif;
+          font-size: 18px;
+          font-weight: lighter; }
+        #page3 .content-modal .internal-content .description .main-information {
+          width: 80%;
+          height: 80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-family: "Roboto", sans-serif;
+          font-size: 12px;
+          font-weight: bold; }
+          #page3 .content-modal .internal-content .description .main-information p {
+            margin-bottom: 20px; }
+            #page3 .content-modal .internal-content .description .main-information p span {
+              color: #AF5500; }
+        #page3 .content-modal .internal-content .description a {
+          width: 50%;
+          height: 30px;
+          text-decoration: none;
+          text-align: center;
+          padding-top: 15px;
+          background-color: #AF5500;
+          color: white;
+          border-radius: 20px;
+          font-family: "Roboto", sans-serif;
+          font-size: 14px;
+          font-weight: bold; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+.hide {
+  display: none; }
