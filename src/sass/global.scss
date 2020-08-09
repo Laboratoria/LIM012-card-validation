@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @font-face {
     font-family: 'Sifonn';
     src: url("../webfonts/SIFONN_PRO.otf");
 }
 
-$color1: linear-gradient(180deg, rgba(239, 3, 67, 0.8) 0%, rgba(250, 82, 130, 0.8) 100%);
+// $color1: linear-gradient(180deg, rgba(255, 238, 0, 0.986) 0%, rgba(31, 31, 25, 0.8) 100%);
+$color1: linear-gradient(180deg, rgba(31, 31, 25, 0.8) 0%, rgba(255, 238, 0, 0.986) 100%);
 $color2: white;
 $color3: #AF5500;
 $color4: #FFCF00;
 $color5: #2d2e25;
 $color6: rgb(251, 253, 112);
 $color7: rgb(210, 255, 10);
+$color8: rgb(247, 248, 179);
+$color9: #222221;
+$color10: rgba(0, 0, 0, 0.8);
 
 @mixin  size($width, $height) {
   width: $width;
@@ -31,10 +34,6 @@ $color7: rgb(210, 255, 10);
 
 @mixin font-NahumGothic($size) {
   @include font('Nanum Gothic', sans-serif , $size, lighter);
-}
-
-@mixin font-Monoton($size) {
-  @include font('Monoton', sans-serif , $size, lighter);
 }
 
 @mixin font-Roboto($size) {
