@@ -57,21 +57,25 @@ rightButton.addEventListener('click', () => {
   const regNum = /^([0-9])*$/;
   const cardMaskify = validator.maskify(numberCard)
 
-  if (!regNum.test(numberCard)) {
-    textResult.textContent = '*No está permitido ingresar letras';
-  } else if (validator.isValid(numberCard)) {
-    page3.innerHTML='';
-    page3.classList.remove('hide');
-    page3.appendChild(modal(nameInput.value, emailInput.value, foneInput.value, dniInput.value, cardMaskify))
-    page3.querySelector('#exit').addEventListener('click', () => {
-      page3.classList.add('hide');
-    })
-    textResult.textContent = '';
+  if(!numberCard) {
+    textResult.textContent = '*Campo obligatorio';
+  } else if (numberCard.length <= 16 ) {
+    if (!regNum.test(numberCard)) {
+      textResult.textContent = '*No está permitido ingresar letras';
+    } else if (numberCard !== '0' && validator.isValid(numberCard)) {
+      page3.innerHTML='';
+      page3.classList.remove('hide');
+      page3.appendChild(modal(nameInput.value, emailInput.value, foneInput.value, dniInput.value, cardMaskify))
+      page3.querySelector('#exit').addEventListener('click', () => {
+        page3.classList.add('hide');
+      })
+      textResult.textContent = '';
+    } else {
+      textResult.textContent = '*El número de tarjeta ingresada es inválida';
+    }
   } else {
-    textResult.textContent = '*El número de tarjeta ingresada es inválida';
+    textResult.textContent = '*Campo de 16 dígitos como máximo';
   }
 });
-
-
 // console.log(validator);
 // 4557880573586785
