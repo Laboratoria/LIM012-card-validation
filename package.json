@@ -10,7 +10,8 @@
     "test": "jest --verbose --coverage",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
     "start": "serve ./src",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d src",
+    "scss": "node-sass --watch src/sass -o src/css"
   },
   "dependencies": {
     "@babel/core": "^7.6.2",
