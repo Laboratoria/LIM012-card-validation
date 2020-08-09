@@ -1,92 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="style.css" >
-    
-    
-  </head>
-  <body id="portada" >
-    
-    <main class="menu">
-      
-      <div class="contenedor1" id="contenedor1">
-      <div  id= "pag1" class="login">
-        <h1 class="title" >"FULL MUSIC" </h1>
-        <h2 class="title1" >CREA TU CUENTA </h2>
-        <form action="" class="formulario">
-        <input type="text" placeholder=" Ingresa Nombre Completo" id="nombreCompleto" class="inpText" > 
-        <input type="text" placeholder=" Ingresa Correo Electrónico" id="correoElectrónico" class="inpText">
-        <input type="text" placeholder=" Ingresa Número de Teléfono" id="númeroTeléfono" class="inpText">
-        <input type="text" placeholder=" Ingresa Número de DNI" id="dni" class="inpText">
-        </form>
-        <button id="myBtn" class="btn">SIGUIENTE</button>
-      </div>
-      <div id="piePagina" class="piePagina">by @Diana Martinez Sifuentes </div>   
-     
-      </div>
-      
-      
-
-      <div id= "pag2" class="pag2">
-        <div class="columna1"><img  src="imagenes/ad13.png" alt=""></div> 
-        <div class="columna2">
-        <img src="imagenes/pay1.png" class="pay" alt="">
-        <p id="introduccion" class="introduccion">Para continuar con el formulario, es necesario ingresar un método de pago.
-          Al obtener la membresía obtendrás un beneficio del 20% en el pago por los tres primeros meses, accederás a toda la información 
-          en música: descargas, envivo, compra de tickets para próximos eventos, noticias.
-        </p>
-        <input type="text" autocomplete= "off" placeholder=" Ingresa Número de la Tarjeta" id="numCard" class="Card">
-        
-        <button id="myBtn1" class="btn1">VALIDAR</button>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Validation</title>
+  <link rel="stylesheet" href="./css/styles.css" >
+</head>
+<body>
+  <main>
+    <section id="page1">
+      <div class="general">
+        <div class="left-content">
         </div>
-        
-        <img src="imagenes/2.1.jpg" alt="" class="franja">
-        
-        
-      </div>
-      
-      <div id="pag3">
-        
-        <img src="imagenes/2.2.jpg" alt="" class="franja2" id="franja2">
-        <div class="fila1">
-        <div class="proteger">
-        <a href="#" id="preview" class="preview"><i class="fas fa-angle-left"></i></a>
-        <a href="https://www.apple.com/apple-music/" id="next" class="next"><i class="fas fa-angle-right"></i></a>
-        </div>
-        
-        <div id="demo" class="demo"></div>
-        <div id="demo1" class="demo"></div>
-        <div id="demo2" class="demo"></div>
-        <div id="demo3" class="demo"></div>
-        <div id="demo4" class="demo"></div>
-        <div id="demo5" class="demo"></div>
-
-        <div class="redes">
-        <div class="redesSociales">
-          <a href="https://www.google.com/" target="_blank" class="google" ><i class="fab fa-google"></i></a>
-          <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://twitter.com/login?lang=es" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
-        </div>
-      </div>
-
-        <div class="fila2">
-          <img class="anuncio" src="imagenes/2.3.jpg" alt="">
-          
+        <div class="right-content">
+          <div class="login">
+            <h1>Full <span>MUSIC</span></h1>
+            <h3>Bienvenid@</h3>
+            <form id="login-form">
+              <div><i class="fas fa-user"></i><span>NOMBRE</span></div>
+              <input type="text" class="inputText" id="name-input" placeholder="Ingresa nombre completo" required>
+              <div><i class="fas fa-envelope"></i><span>EMAIL</span></div>
+              <input type="email" class="inputText" id="email-input" placeholder="Ingresa correo electrónico" required>
+              <div><i class="fas fa-phone"></i><span>TELÉFONO</span></div>
+              <input type="text" class="inputText" id="fone-input" placeholder="Ingresa número de teléfono" required>
+              <div><i class="fas fa-id-card"></i><span>DNI</span></div>
+              <input type="text" class="inputText" id="dni-input" placeholder="Ingresa número de DNI" required>
+              <button>SIGUIENTE</button>
+            </form>
           </div>
-        </div>  
+        </div>
+      </div>
+    </section>
+
+    <section id="page2">
+      <div class="general2">
+        <div class="content-center">
+          <img src="./imagenes/credit_card.png" alt="">
+          <div class="content-card">
+            <p>Para continuar con el formulario, es necesario ingresar un método de pago.
+              Al obtener la membresía obtendrás un beneficio del 20% en el pago por los tres primeros meses, accederás a toda la información
+              en música: descargas, envivo, compra de tickets para próximos eventos, noticias.</p>
+            <input type="text" class="numCard" placeholder="Ingrese número de tarjeta">
+            <div class="text-result"></div>
+          </div>
+          <div class="two-buttons">
+            <i class="fas fa-arrow-circle-left"></i>
+            <i class="fas fa-arrow-circle-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="page3">
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-footer">
+      <div class="text-footer">
+        <p> ©2020 Diana Martinez Sifuentes </p>
       </div>
 
-    </main>
-
-    
-   
-
-    <script src="index.js" type="module"></script>
-    <script src="https://kit.fontawesome.com/7e57db430e.js" crossorigin="anonymous"></script>
-  </body>
+      <div class="social-networks-container">
+        <div class="social-networks">
+          <a href="https://www.linkedin.com/in/diana-mart%C3%ADnez-sifuentes-506307178/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <div class="social-networks">
+          <a href="https://github.com/DianaMS">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="social-networks">
+          <a href="https://www.instagram.com/dianams_19/?hl=es-la">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js" type="module"></script>
+  <script src="https://kit.fontawesome.com/e43bba631d.js"></script>
+</body>
 </html>
-
