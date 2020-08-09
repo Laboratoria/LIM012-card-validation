@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@font-face {
+    font-family: 'Sifonn';
+    src: url("../webfonts/SIFONN_PRO.otf");
+}
+
+$color1: linear-gradient(180deg, rgba(239, 3, 67, 0.8) 0%, rgba(250, 82, 130, 0.8) 100%);
+$color2: white;
+$color3: #AF5500;
+$color4: #FFCF00;
+$color5: #2d2e25;
+$color6: rgb(251, 253, 112);
+$color7: rgb(210, 255, 10);
+
+@mixin  size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin font($family, $style, $size, $weigth) {
+  font-family: $family, $style;
+  font-size: $size;
+  font-weight :$weigth
+}
+
+@mixin font-siffon($size) {
+  @include font('Sifonn', sans-serif , $size, lighter);
+}
+
+@mixin font-NahumGothic($size) {
+  @include font('Nanum Gothic', sans-serif , $size, lighter);
+}
+
+@mixin font-Monoton($size) {
+  @include font('Monoton', sans-serif , $size, lighter);
+}
+
+@mixin font-Roboto($size) {
+  @include font('Roboto', sans-serif , $size, bold);
+}
+//===media===
+@mixin mobile-screen() {
+    @media (max-width: 700px){
+       @content;
+    }
+}
+
+//===flex===
+@mixin display-flex-column() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin display-flex-row() {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin display-flex-row-between() {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin display-flex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//===neon===
+@mixin neon() {
+    color: #fff;
+    margin-top: 30%;
+    text-shadow:
+      0 0 5px $color6,
+      0 0 10px $color6,
+      0 0 20px $color6,
+      0 0 40px $color7,
+      0 0 80px $color7,
+      0 0 90px $color6,
+      0 0 100px $color7,
+      0 0 140px $color7,
+      0 0 180px $color7;
+}
