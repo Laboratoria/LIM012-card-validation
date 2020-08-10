@@ -1,0 +1,68 @@
+@import "../global.scss";
+
+#page3 {
+  @include size(100%, 100vh);
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  @include mobile-screen() {
+    @include size(100%, 640px);
+  }
+
+  .content-modal {
+    @include size(100%, 100%);
+    background: $color10;
+    @include display-flex-column();
+
+    .internal-content{
+      @include size(40%, 80%);
+      @include display-flex-column();
+      background-color: $color2;
+      @include mobile-screen() {
+        @include size(80%, 80%);
+      }
+      i {
+        position: relative;
+        bottom: 20px;
+        font-size: 20px;
+        color: $color3;
+        cursor: pointer;
+      }
+      img{
+        width: 100px;
+
+      }
+
+      .description{
+        @include size(80%, 60%);
+        @include display-flex-column();
+        .state {
+          @include font-siffon(18px);
+        }
+        .main-information {
+          @include size(80%, 80%);
+          @include display-flex-column();
+          @include font-Roboto(12px);
+
+          p {
+            margin-bottom: 20px;
+            span {
+              color: $color3;
+            }
+          }
+        }
+        a{
+          @include size(50%,30px);
+          text-decoration:none;
+          text-align: center;
+          padding-top:15px;
+          background-color: $color3;
+          color: $color2;
+          border-radius: 20px;
+          @include font-Roboto(14px);
+        }
+      }
+    }
+  }
+}

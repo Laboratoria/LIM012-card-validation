@@ -1,14 +1,85 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Validation</title>
+  <link rel="stylesheet" href="./css/styles.css" >
+</head>
+<body>
+  <main>
+    <section id="page1">
+      <div class="general">
+        <div class="left-content">
+        </div>
+        <div class="right-content">
+          <div class="login">
+            <h1>Full <span>MUSIC</span></h1>
+            <h3>Bienvenid@</h3>
+            <form id="login-form">
+              <div><i class="fas fa-user"></i><span>NOMBRE</span></div>
+              <input type="text" class="inputText" id="name-input" placeholder="Ingresa nombre completo" required>
+              <div><i class="fas fa-envelope"></i><span>EMAIL</span></div>
+              <input type="email" class="inputText" id="email-input" placeholder="Ingresa correo electrónico" required>
+              <div><i class="fas fa-phone"></i><span>TELÉFONO</span></div>
+              <input type="text" class="inputText" id="fone-input" placeholder="Ingresa número de teléfono" required>
+              <div><i class="fas fa-id-card"></i><span>DNI</span></div>
+              <input type="text" class="inputText" id="dni-input" placeholder="Ingresa número de DNI" required>
+              <button type="submit">SIGUIENTE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="page2">
+      <div class="general2">
+        <div class="content-center">
+          <img src="./imagenes/credit_card.png" alt="">
+          <div class="content-card">
+            <p>Para continuar con el formulario, es necesario ingresar un método de pago.
+              Al obtener la membresía obtendrás un beneficio del 20% en el pago por los tres primeros meses, accederás a toda la información
+              en música: descargas, envivo, compra de tickets para próximos eventos, noticias.</p>
+            <input type="text" class="numCard" placeholder="Ingrese número de tarjeta">
+            <div class="text-result"></div>
+          </div>
+          <div class="two-buttons">
+            <i class="fas fa-arrow-circle-left"></i>
+            <i class="fas fa-arrow-circle-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="page3">
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-footer">
+      <div class="text-footer">
+        <p> ©2020 Diana Martinez Sifuentes </p>
+      </div>
+
+      <div class="social-networks-container">
+        <div class="social-networks">
+          <a href="https://www.linkedin.com/in/diana-mart%C3%ADnez-sifuentes-506307178/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <div class="social-networks">
+          <a href="https://github.com/DianaMS">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="social-networks">
+          <a href="https://www.instagram.com/dianams_19/?hl=es-la">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js" type="module"></script>
+  <script src="https://kit.fontawesome.com/e43bba631d.js"></script>
+</body>
 </html>

@@ -1,0 +1,102 @@
+@import "../global.scss";
+
+#page1 {
+
+  @include size(100%, 100vh);
+  @include mobile-screen() {
+    @include size(100%, 640px);
+  }
+  .general {
+    @include size(100%, 100%);
+    @include display-flex-row();
+    @include mobile-screen() {
+      flex-direction: column;
+    }
+
+    .left-content {
+      @include size(60%, 100%);
+      background-image: url(../imagenes/cover-desktop.png);
+      background-size: 100% 100%;
+      @include mobile-screen() {
+        @include size(100%, 0);
+      }
+    }
+    .right-content {
+      @include size(40%, 100%);
+      @include display-flex-column();
+      @include mobile-screen() {
+        background-image: url(../imagenes/backgroun-mobile.png);
+        background-size: cover;
+        @include size(100%, 100%);
+      }
+      .login {
+        border-radius: 15px;
+        background: $color2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        @include size(55%, 75%);
+        @include mobile-screen() {
+          @include size(80%, 80%);
+        }
+
+        h1 {
+          @include font-siffon(24px);
+          border-left-style: double;
+          padding-left: 20px;
+          margin-top: 20px;
+          span {
+            color: $color3;
+            border-right-style: double;
+            padding-right: 20px;
+          }
+        }
+
+        h3{
+          @include font-Roboto(16px);
+          color: $color5;
+          font-weight: bold;
+        }
+
+        #login-form {
+          @include size(80%, 75%);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          div {
+            color: $color3;
+            font-size: 12px;
+            span {
+              @include font-NahumGothic(12px);
+              margin-left: 5px;
+              font-weight: bold;
+            }
+          }
+          input {
+            @include size(98%, 8%);
+            margin-bottom: 10%;
+            margin-top: 2%;
+            border-style: none;
+            border-bottom: solid 1px $color4;
+            font-size: 12px;
+            text-indent: 5px;
+          }
+          button{
+            @include size(60%, 30px);
+            margin-top: 8%;
+            margin-left: 20%;
+            border-radius: 15px;
+            border-style: none;
+            color: $color2;
+            background: $color3;
+            cursor: pointer;
+            @include mobile-screen() {
+              border-radius: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
