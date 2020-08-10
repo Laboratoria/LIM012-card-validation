@@ -48,6 +48,8 @@ variedades en música.
 
 ### Version Mobile
 
+![AltaFidelidad](./assets/mockupUp.gif)
+
 ![AltaFidelidad](./assets/mockupmobile.gif)
 
 
