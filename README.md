@@ -44,11 +44,11 @@ variedades en música.
 
 ### Version Desktop
 
-![](./assets/smartmockups_kdntwoff.gif)
+![AltaFidelidad](./assets/mockupdesktop.gif)
 
 ### Version Mobile
 
-![](./assets/smartmockups_kdnwldv4.gif)
+![AltaFidelidad](./assets/mockupmobile.gif)
 
 
 ***
