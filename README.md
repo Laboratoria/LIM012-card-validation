@@ -3,38 +3,63 @@
 FULL MUSIC, la página que te permitirá acceder a una plataforma con contenido musical de
 todos los géneros después de validar tu tarjeta de crédito.
 
-### PROYECTO FINAL
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/60928490/89745203-e4a1e500-da77-11ea-815b-63e13d3ed2b8.png">
   <img src="https://user-images.githubusercontent.com/60928490/89745205-eb305c80-da77-11ea-9a01-fbca1586b98a.png">
   <img src="https://user-images.githubusercontent.com/60928490/89745206-ecfa2000-da77-11ea-844b-da777c34674e.png">
 </p>
 
+
+***
+
+
 ## :mag: INVESTIGACIÓN UX:
 
-Página dirigida a usuarios en general que necesiten un espacio de entretenimiento en el mundo musical,
-que puedan acceder a una plataforma con distintas variedades en música.
-Para acceder a éste contenido será necesario que el usuario cree una cuenta, posteriormente ingresar un método de pago, la cual será validada y finalmente será protegida.
-El usuario podrá interactuar de manera dinámica con cada funcionalidad de la página.
+* Página dirigida a usuarios en general, que necesiten un espacion de entretenimiento en el rubro musical.
+
+* Los usuarios pueden acceder a la plataforma de "FULL MUSIC", para ésto será necesario que el usuario
+cree su cuenta, posteriormente ingresar el número de tarjeta de crédito como medio de pago, éste número
+de tarjeta será validada y finalmente al comprobar y aceptar todos sus datos tendrá acceso a las distintas
+variedades en música.
+
+* El usuario podrá interactuar de manera dinámica con cada funcionalidad de la página.
+
+#### Prototipo Baja Fidelidad
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/60928490/89746991-50894b00-da82-11ea-95fe-ecfc2cbb7a5d.png">
+</p>
+
+#### Feedback - Testeo de Usabilidad
+
+* En la vista donde ingresamos el numero de tarjeta de crédito, será necesario dos botones: uno que me envíe
+  a la vista principal y el segundo que me verifique si la tarjeta es válida o no.
+
+* Añadir información referencial de la creadora de la página, utilizando el footer como contenedor
+
+* En la vista principal mostrar un mensaje de bienvenida
+
+* La tercera vista será innecesaria, la cual será reemplazada con una ventana emergente con toda la información
+  solo si la tarjeta es válida
+
+### Version Desktop
+
+<p align="center">
+  <img src="./assets/smartmockups_kdntwoff.gif">
+</p>
+
+### Version Mobile
+
+<p align="center">
+  <img src="./assets/smartmockups_kdnwldv4.gif">
+</p>
 
 
-![](PROTOTIPO.jpeg)
+***
 
 
-![](PAG4.PNG)
+## Objetivos de aprendizaje
 
-![](PAG5.PNG)
-
-![](PAG6.PNG)
-
-
-## 3. Objetivos de aprendizaje
-El objetivo principal de aprendizaje es adquirir experiencia desarrollando
-aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
-y la lógica, utilizando HTML, CSS y JavaScript como herramientas.
-Reflexiona y luego marca los objetivos que has llegado a **entender** y
-**aplicar** en tu proyecto.
 ### UX
 * [x] [Diseñar la aplicación pensando y entendiendo al usuario](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
 * [x] [Crear prototipos para obtener feedback e iterar](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/00-sketching/00-sketching)
