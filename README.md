@@ -1,29 +1,20 @@
 ## :musical_score: FULL MUSIC - CARD VALIDATION
 
-FULL MUSIC, la página que te permitirá acceder a una plataforma con contenido musical de 
-todos los géneros depués de validar tu tarjeta de crédito.
+FULL MUSIC, la página que te permitirá acceder a una plataforma con contenido musical de
+todos los géneros después de validar tu tarjeta de crédito.
 
 ### PROYECTO FINAL
 
-#### :one: VISTA PRIMERA PANTALLA
-
-![](PAG1.PNG)
-
-
-### :two: VISTA SEGUNDA PANTALLA
-
-![](PAG2.PNG)
-
-
-### :three: VISTA TERCERA PANTALLA
-
-![](PAG3.PNG)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/60928490/89745203-e4a1e500-da77-11ea-815b-63e13d3ed2b8.png">
+  <img src="https://user-images.githubusercontent.com/60928490/89745205-eb305c80-da77-11ea-9a01-fbca1586b98a.png">
+  <img src="https://user-images.githubusercontent.com/60928490/89745206-ecfa2000-da77-11ea-844b-da777c34674e.png">
+</p>
 
 ## :mag: INVESTIGACIÓN UX:
 
 Página dirigida a usuarios en general que necesiten un espacio de entretenimiento en el mundo musical,
-que puedan acceder a una plataforma con distintas variedades en música. 
+que puedan acceder a una plataforma con distintas variedades en música.
 Para acceder a éste contenido será necesario que el usuario cree una cuenta, posteriormente ingresar un método de pago, la cual será validada y finalmente será protegida.
 El usuario podrá interactuar de manera dinámica con cada funcionalidad de la página.
 
